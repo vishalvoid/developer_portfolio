@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Croissant+One&family=Georama&family=Lobster&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Croissant+One&family=Georama&family=Lobster&family=Lobster+Two&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.cursive-heading2 {
+  font-family: "Lobster Two", cursive;
+}
+
+.cursive-heading {
+  font-family: "Croissant One", cursive;
+}
