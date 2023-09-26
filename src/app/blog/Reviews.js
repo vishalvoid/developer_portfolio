@@ -16,7 +16,7 @@ const Reviews = () => {
           <div className="flex flex-wrap lg:gap-8 gap-4 h-[80vh]  overflow-y-auto">
             <div className=" md:w-[30%] sm:w-[47%] w-[95%] border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100 py-6">
               <div className="text-2xl font-semibold mb-1 h-12 w-12">
-                <Image src={M1} />
+                <Image src={M1} alt="avatar" />
               </div>
               <p className="text-xl  font-semibold text-slate-200  py-2  inline rounded-md ">
                 Vishal Kumar Singh
@@ -34,7 +34,7 @@ const Reviews = () => {
             </div>
             <div className=" md:w-[30%] sm:w-[47%] w-[95%] border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100 py-6">
               <div className="text-2xl font-semibold mb-1 h-12 w-12">
-                <Image src={M5} />
+                <Image src={M5} alt="avatar" />
               </div>
               <p className="text-xl  font-semibold text-slate-200  py-2  inline rounded-md ">
                 Vishal Kumar Singh
@@ -52,7 +52,7 @@ const Reviews = () => {
             </div>
             <div className=" md:w-[30%] sm:w-[47%] w-[95%] border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100 py-6">
               <div className="text-2xl font-semibold mb-1 h-12 w-12">
-                <Image src={M2} />
+                <Image src={M2} alt="avatar" />
               </div>
               <p className="text-xl  font-semibold text-slate-200  py-2  inline rounded-md ">
                 Vishal Kumar Singh
@@ -70,7 +70,7 @@ const Reviews = () => {
             </div>
             <div className=" md:w-[30%] sm:w-[47%] w-[95%] border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100 py-6">
               <div className="text-2xl font-semibold mb-1 h-12 w-12">
-                <Image src={M3} />
+                <Image src={M3}  alt="avatar"/>
               </div>
               <p className="text-xl  font-semibold text-slate-200  py-2  inline rounded-md ">
                 Vishal Kumar Singh
@@ -88,7 +88,7 @@ const Reviews = () => {
             </div>
             <div className=" md:w-[30%] sm:w-[47%] w-[95%] border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100 py-6">
               <div className="text-2xl font-semibold mb-1 h-12 w-12">
-                <Image src={M4} />
+                <Image src={M4}  alt="avatar"/>
               </div>
               <p className="text-xl  font-semibold text-slate-200  py-2  inline rounded-md ">
                 Vishal Kumar Singh

@@ -22,7 +22,11 @@ const Skills_2 = () => {
       <main className="w-full h-screen inline-block z-0 bg-gray-900 text-light p-10">
         <div className="flex lg:flex-row flex-col lg:w-9/12 w-full lg:h-5/6 h-full  m-auto lg:mt-16 mt-4 ">
           <div className=" lg:w-6/12 w-full lg:h-full h-1/2  flex justify-around items-center">
-            <Image className="brightness-200 h-full " src={Waiting} />
+            <Image
+              className="brightness-200 h-full "
+              src={Waiting}
+              alt="Skills_img"
+            />
           </div>
 
           <div className=" relative lg:w-6/12 w-full h-full ">

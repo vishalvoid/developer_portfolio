@@ -9,7 +9,11 @@ const Experience = () => {
     <main className="w-full h-full inline-block z-0 bg-gray-900 text-light xl:p-10 p-0">
       <div className="flex w-9/12 h-5/6  m-auto mt-16  xl:flex-row flex-col gap-2 md:gap-0">
         <div className="xl:w-6/12 xl:h-full h-3/6  flex justify-around items-center xl:hidden">
-          <Image className="brightness-200 h-full w-full  " src={Gamestation} />
+          <Image
+            className="brightness-200 h-full w-full  "
+            src={Gamestation}
+            alt="Experience_img"
+          />
         </div>
         <div className="xl:w-6/12 xl:h-full h-3/6 ">
           <div className="flex justify-center   border-l border-slate-700 h-full flex-col ">
@@ -96,7 +100,11 @@ const Experience = () => {
           </div>
         </div>
         <div className="xl:w-6/12 xl:h-full h-3/6   justify-around items-center xl:flex hidden">
-          <Image className="brightness-200 h-full w-full " src={Gamestation} />
+          <Image
+            className="brightness-200 h-full w-full "
+            src={Gamestation}
+            alt="Expericnce_h_img"
+          />
         </div>
       </div>
     </main>

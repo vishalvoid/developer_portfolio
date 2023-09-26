@@ -159,7 +159,7 @@ const Navigation_bar = () => {
               target={"_blank"}
               className="w-7 h-4 ml-4  transition ease-out duration-150 hover:-translate-y-0.5"
             >
-              <Image src={Instagram_icon} />
+              <Image src={Instagram_icon}  alt="insta"/>
             </a>
           </nav>
         </div>

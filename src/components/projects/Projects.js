@@ -208,8 +208,8 @@ const Projects = () => {
             role="alert"
           >
             <span class="font-medium -tracking-2  ">Sorry ! </span>
-            More Projects might've ran away. don't worry ! "I'll Find them for
-            You"
+            More Projects might&#39;ve ran away. don&#39;t worry ! &#34;I&#39;ll
+            Find them for You&#34;
           </div>
         </div>
       ) : (
@@ -242,25 +242,25 @@ const Projects = () => {
                         Full Stack Social Media WebApp
                       </p>
                       <p className="mt-2 text-xs text-slate-400">
-                        "Experience the future of social networking with our
+                        &#34;Experience the future of social networking with our
                         cutting-edge fullstack web app. Seamlessly connect with
                         friends, share moments, and explore innovative features
                         designed to enhance your online social experience. From
                         sleek user interfaces to robust backend functionalities,
-                        we've got it all covered. Join us in shaping the digital
-                        social landscape of tomorrow!"
+                        we&#39;ve got it all covered. Join us in shaping the
+                        digital social landscape of tomorrow!&#34;
                       </p>
                       <div>
                         {" "}
                         <div className="w-100  mt-4 rounded-xl overflow-hidden">
-                          <Image src={Dravin1} />
+                          <Image src={Dravin1}  alt="dravin_img"/>
                         </div>
                         <div className="w-100  flex flex-row mt-2 gap-2">
                           <div className="w-6/12 rounded-xl overflow-hidden">
-                            <Image src={Dravin2} />
+                            <Image src={Dravin2}  alt="dravin_img"/>
                           </div>
                           <div className="w-6/12 rounded-xl overflow-hidden">
-                            <Image src={Dravin3} />
+                            <Image src={Dravin3}  alt="dravin_img"/>
                           </div>
                         </div>
                         <div>
@@ -295,8 +295,8 @@ const Projects = () => {
                               ensuring a reliable and scalable platform.
                             </li>
                             <li class="leading-loose text-xs opacity-75">
-                              Engagement Tools: Keep up with friends' updates,
-                              post content, like, comment, and share
+                              Engagement Tools: Keep up with friends&#39;
+                              updates, post content, like, comment, and share
                               effortlessly.
                             </li>
                             <li class="leading-loose text-xs opacity-75">
@@ -310,14 +310,14 @@ const Projects = () => {
                             </li>
 
                             <li class="leading-loose text-xs opacity-75">
-                              90% of surveyed users rated the application's user
-                              interface as intuitive and easy to navigate
+                              90% of surveyed users rated the application&#39;s
+                              user interface as intuitive and easy to navigate
                             </li>
 
                             <li class="leading-loose text-xs opacity-75">
                               Experience social networking like never before
                               with Dravin. Connect, share, and build
-                              relationships with confidence."
+                              relationships with confidence.&#34;
                             </li>
                           </ul>
                         </div>
@@ -399,22 +399,22 @@ const Projects = () => {
                         Website for an NGO.
                       </p>
                       <p className="mt-2 text-xs text-slate-400">
-                        "Jayaprakash Narayan Foundation, a noble initiative
+                        &#34;Jayaprakash Narayan Foundation, a noble initiative
                         under the Central Government of India, dedicated to
                         driving positive change and social upliftment in our
-                        nation."
+                        nation.&#34;
                       </p>
                       <div>
                         {" "}
                         <div className="w-100  mt-4 rounded-xl overflow-hidden">
-                          <Image className="h-full w-full" src={JP1} />
+                          <Image className="h-full w-full" src={JP1}  alt="jp_img"/>
                         </div>
                         <div className="w-100  flex flex-row mt-2 gap-2">
                           <div className="w-6/12 rounded-xl overflow-hidden">
-                            <Image className="h-full w-full" src={JP2} />
+                            <Image className="h-full w-full" src={JP2}  alt="jp_img"/>
                           </div>
                           <div className="w-6/12 rounded-xl overflow-hidden">
-                            <Image className="h-full w-full" src={JP3} />
+                            <Image className="h-full w-full" src={JP3}  alt="jp_img"/>
                           </div>
                         </div>
                         <div>
@@ -450,7 +450,8 @@ const Projects = () => {
                             <li class="leading-loose text-xs opacity-75">
                               Impactful Visuals: Engaging multimedia content,
                               such as images and videos, effectively conveys the
-                              NGO's mission, inspiring visitors to get involved.
+                              NGO&#39;s mission, inspiring visitors to get
+                              involved.
                             </li>
                             <li class="leading-loose text-xs opacity-75">
                               Volunteer Opportunities: Information about
@@ -459,13 +460,13 @@ const Projects = () => {
                             </li>
                             <li class="leading-loose text-xs opacity-75">
                               Social Media Integration: Seamlessly connect with
-                              the NGO's social media profiles to stay updated on
-                              events, campaigns, and news.
+                              the NGO&#39;s social media profiles to stay
+                              updated on events, campaigns, and news.
                             </li>
                             <li class="leading-loose text-xs opacity-75">
                               Newsletter Signup: Users can subscribe to
                               newsletters, receiving regular updates and success
-                              stories, keeping them connected to the NGO's
+                              stories, keeping them connected to the NGO&#39;s
                               activities.
                             </li>
                           </ul>
@@ -544,24 +545,24 @@ const Projects = () => {
                         A Restraunt Booking WebAPP
                       </p>
                       <p className="mt-2 text-xs text-slate-400">
-                        "voidTable is a online restaurant reservation platform,
-                        simplifying the dining experience by allowing users to
-                        book tables at their favorite restaurants with ease.
-                        With a vast network of participating eateries, it
+                        &#34;voidTable is a online restaurant reservation
+                        platform, simplifying the dining experience by allowing
+                        users to book tables at their favorite restaurants with
+                        ease. With a vast network of participating eateries, it
                         connects diners and establishments for memorable
-                        culinary adventures."
+                        culinary adventures.&#34;
                       </p>
                       <div>
                         {" "}
                         <div className="w-100  mt-4 rounded-xl overflow-hidden">
-                          <Image src={VT1} />
+                          <Image src={VT1} alt="voidT_img"/>
                         </div>
                         <div className="w-100  flex flex-row mt-2 gap-2">
                           <div className="w-6/12 rounded-xl overflow-hidden">
-                            <Image src={VT2} />
+                            <Image src={VT2} alt="voidT_img"/>
                           </div>
                           <div className="w-6/12 rounded-xl overflow-hidden">
-                            <Image src={VT3} />
+                            <Image src={VT3}  alt="voidT_img"/>
                           </div>
                         </div>
                         <div>
@@ -587,7 +588,7 @@ const Projects = () => {
                             <li class="leading-loose text-xs opacity-75">
                               Real-Time Availability: Real-time updates on table
                               availability with automatic synchronization to
-                              prevent overbooking, thanks to MongoDB's
+                              prevent overbooking, thanks to MongoDB&#39;s
                               document-oriented structure.
                             </li>
                             <li class="leading-loose text-xs opacity-75">
@@ -707,25 +708,25 @@ const Projects = () => {
                         A NextJS Based Personal Portfolio
                       </p>
                       <p className="mt-2 text-xs text-slate-400">
-                        "Experience the future of social networking with our
+                        &#34;Experience the future of social networking with our
                         cutting-edge fullstack web app. Seamlessly connect with
                         friends, share moments, and explore innovative features
                         designed to enhance your online social experience. From
                         sleek user interfaces to robust backend functionalities,
-                        we've got it all covered. Join us in shaping the digital
-                        social landscape of tomorrow!"
+                        we&#39;ve got it all covered. Join us in shaping the
+                        digital social landscape of tomorrow!&#34;
                       </p>
                       <div>
                         {" "}
                         <div className="w-100 border  mt-4 rounded-xl overflow-hidden">
-                          <Image src={P1} />
+                          <Image src={P1}  alt="portfolio_img"/>
                         </div>
                         <div className="w-100  flex flex-row mt-2 gap-2">
                           <div className="w-6/12 border rounded-xl overflow-hidden">
-                            <Image src={P2} />
+                            <Image src={P2}  alt="portfolio_img" />
                           </div>
                           <div className="w-6/12 border rounded-xl overflow-hidden">
-                            <Image src={P3} />
+                            <Image src={P3}  alt="portfolio_img"/>
                           </div>
                         </div>
                         <div>
@@ -745,12 +746,12 @@ const Projects = () => {
                               devices, maintaining its elegance.
                             </li>
                             <li class="leading-loose text-xs opacity-75">
-                              Next.js Power: Utilizing Next.js, it's fast,
+                              Next.js Power: Utilizing Next.js, it&#39;s fast,
                               SEO-friendly, and offers server-side rendering.
                             </li>
                             <li class="leading-loose text-xs opacity-75">
                               Blog Integration: Seamlessly blends a blog feature
-                              into the portfolio's modern design.
+                              into the portfolio&#39;s modern design.
                             </li>
                             <li class="leading-loose text-xs opacity-75">
                               Robust Backend: Powered by Node.js and Express.js,

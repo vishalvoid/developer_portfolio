@@ -50,6 +50,7 @@ const Homepage = () => {
                 <Image
                   src={Circular}
                   className=" invert grayscale animate-spin "
+                  alt="Hero_svg"
                 />
               </div>
             </div>
