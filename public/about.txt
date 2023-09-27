@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Amaranth
+- Font Author: Copyright 2016 The Amaranth Project Authors (https://github.com/googlefonts/amaranth)
+- Font Source: http://fonts.gstatic.com/s/amaranth/v18/KtkuALODe433f0j1zPnCF9GqwnzW.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
