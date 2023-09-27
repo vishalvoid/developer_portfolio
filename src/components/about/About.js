@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import aboutImg from "../assets/about.png";
 import Astro from "../assets/Astro.svg";
 
 const About = () => {

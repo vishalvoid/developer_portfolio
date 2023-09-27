@@ -1,10 +1,15 @@
 "use client";
 
-import { faBars, faSun, faXmark } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBars,
+  faSearch,
+  faSun,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 
-const Navbar_blog = () => {
+const Navbar_Stories = () => {
   const [nav, setnav] = useState(false);
 
   const Setnavhandler = () => {
@@ -20,27 +25,28 @@ const Navbar_blog = () => {
   };
 
   return (
-    <main className="w-screen h-full bg-gray-900 z-50">
-      <div className="fixed  w-full bg-gray-900 justify-between items-center px-8 h-[10vh] flex flex-row z-50">
-        <div className="home_heading text-3xl">Vish.Pen</div>
+    <main className="w-screen h-full  bg-gray-900 z-50">
+      <div className="fixed  w-full bg-gray-900 justify-between items-center px-8 py-4 h-[10] flex flex-row z-50">
+        <div className="home_heading text-3xl">Blog</div>
+        <span className="md:block hidden">
+          <input
+            className="border text-xs rounded-md border-slate-700 mr-2 bg-slate-900 h-10 w-80 indent-2"
+            type="text"
+            placeholder="search key phrases, titles, headings"
+          />
+          <span className="h-10 bg-slate-800 p-[0.75rem] text-xs  rounded-md cursor-pointer border border-slate-700 hover:border-slate-100">
+            <FontAwesomeIcon icon={faSearch} />
+          </span>
+        </span>
         <div className="lg:block hidden">
           <ul className="flex flex-row gap-4 text-gray-400 mr-4 z-50">
             <li className="hover:text-slate-300 cursor-pointer scroll-smooth">
-              <a href="#Blogs">Blog</a>
+              <a href="/blog">Blogs</a>
             </li>
-            <li className="hover:text-slate-300 cursor-pointer">
-              <a href="#Podcast">Podcast</a>
-            </li>
-            <li className="hover:text-slate-300 cursor-pointer">
-              {" "}
-              <a href="#Reviews">Reviews</a>
-            </li>
-            <li className="hover:text-slate-300 cursor-pointer">
-              <a href="#Subscription">Subscription</a>
-            </li>
-            <li className="hover:text-slate-300 cursor-pointer">
+
+            {/* <li className="hover:text-slate-300 cursor-pointer">
               <a href="/">Portfolio</a>
-            </li>
+            </li> */}
             <li className="hover:text-slate-300 cursor-pointer">
               {" "}
               <FontAwesomeIcon icon={faSun} />
@@ -77,31 +83,41 @@ const Navbar_blog = () => {
           <div className="  w-full h-full  ">
             <ul className="flex flex-col items-center justify-center text-5xl gap-8  text-white">
               <li className="cursor-pointer hover:text-slate-400 transition home_heading ease-in duration-150">
-                <a onClick={() => onClickHandler()} href="#Blogs">
-                  Blog
+                <a onClick={() => onClickHandler()} href="/blog">
+                  Blogs
                 </a>
               </li>
 
-              <li className="cursor-pointer hover:text-slate-400 transition home_heading ease-in duration-150">
+              {/* <li className="cursor-pointer hover:text-slate-400 transition home_heading ease-in duration-150">
                 <a onClick={() => onClickHandler()} href="#Podcast">
                   Podcast
                 </a>
-              </li>
-              <li className="cursor-pointer hover:text-slate-400 transition home_heading ease-in duration-150">
+              </li> */}
+              {/* <li className="cursor-pointer hover:text-slate-400 transition home_heading ease-in duration-150">
                 <a onClick={() => onClickHandler()} href="#Reviews">
                   Reviews
                 </a>
-              </li>
-              <li className="cursor-pointer hover:text-slate-400 transition home_heading ease-in duration-150">
+              </li> */}
+              {/* <li className="cursor-pointer hover:text-slate-400 transition home_heading ease-in duration-150">
                 <a onClick={() => onClickHandler()} href="#Subscription">
                   Subscription
                 </a>
-              </li>
+              </li> */}
               <li className="cursor-pointer hover:text-slate-400 transition home_heading ease-in duration-150">
                 <a onClick={() => onClickHandler()} href="/">
                   Portfolio
                 </a>
               </li>
+              <span className="flex">
+                <input
+                  className="border text-xs rounded-md border-slate-700 mr-2 bg-slate-900 h-10 w-80 indent-2"
+                  type="text"
+                  placeholder="search key phrases, titles, headings"
+                />
+                <span className="h-10 bg-slate-800 p-[0.75rem] text-xs  rounded-md cursor-pointer border border-slate-700 hover:border-slate-100">
+                  <FontAwesomeIcon icon={faSearch} />
+                </span>
+              </span>
             </ul>
           </div>
         </div>
@@ -110,4 +126,4 @@ const Navbar_blog = () => {
   );
 };
 
-export default Navbar_blog;
+export default Navbar_Stories;
