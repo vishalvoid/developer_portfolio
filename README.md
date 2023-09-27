@@ -4,14 +4,14 @@
   </a>
 </p>
 
-# Developer Portfolio | NextJS
+# Developer Portfolio | [Vishalvoid.com](https://vishalvoid.com)
 
 Hello there! I'm thrilled to have you on my personal portfolio website, where I showcase my passion for technology and creativity. I'm a dedicated developer and content creator who loves sharing knowledge through blogs and podcasts.
 
 ## Live
 
 If
-[Link](https:www.batak.in) is not working, please open a issue from bugs/feature section.
+[Link](https://vishalvoid.com) is not working, please open a issue from bugs/feature section.
 
 ## How To Get
 
