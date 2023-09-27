@@ -43,9 +43,9 @@ const Skills_2 = () => {
                     />
                   </div>
                   <div class="md:absolute bottom-6 left-6 mt-6 md:mt-0">
-                    <h1 class="text-5xl  font-sans font-bold lg:mt-4">
+                    <p class="text-5xl  font-sans font-bold lg:mt-4">
                       <CountUp start={0} end={6} duration={2} delay={0} />
-                    </h1>
+                    </p>
                     <p class="text-sm font-normal mt-1 font-raleway text-slate-400 ">
                       Satisfied Costumers
                     </p>
@@ -62,9 +62,9 @@ const Skills_2 = () => {
                     />
                   </div>
                   <div class="md:absolute bottom-6 left-6 mt-6 md:mt-0">
-                    <h1 class="text-5xl  font-sans font-bold lg:mt-4">
+                    <p class="text-5xl  font-sans font-bold lg:mt-4">
                       <CountUp start={0} end={11} duration={2} />
-                    </h1>
+                    </p>
                     <p class="text-sm font-normal mt-1 font-raleway text-slate-400 ">
                       Projects Completed
                     </p>
@@ -81,9 +81,9 @@ const Skills_2 = () => {
                     />
                   </div>
                   <div class="md:absolute bottom-6 left-6 mt-6 md:mt-0">
-                    <h1 class="text-5xl  font-sans font-bold lg:mt-4">
+                    <p class="text-5xl  font-sans font-bold lg:mt-4">
                       <CountUp start={0} end={50} duration={2} />
-                    </h1>
+                    </p>
                     <p class="text-sm font-normal mt-1 font-raleway text-slate-400 ">
                       Web Pages
                     </p>
@@ -101,9 +101,9 @@ const Skills_2 = () => {
                   </div>
 
                   <div class="md:absolute bottom-6 left-6 mt-6 md:mt-0">
-                    <h1 class="text-5xl  font-sans font-bold lg:mt-4">
+                    <p class="text-5xl  font-sans font-bold lg:mt-4">
                       <CountUp start={0} end={2} duration={2} />
-                    </h1>
+                    </p>
                     <p class="text-sm font-normal mt-1 font-raleway text-slate-400 ">
                       Companies
                     </p>

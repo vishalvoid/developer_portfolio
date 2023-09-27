@@ -1,6 +1,5 @@
 import {
   faArrowRight,
-  faBowlFood,
   faBuildingNgo,
   faComputerMouse,
   faHashtag,
@@ -253,14 +252,14 @@ const Projects = () => {
                       <div>
                         {" "}
                         <div className="w-100  mt-4 rounded-xl overflow-hidden">
-                          <Image src={Dravin1}  alt="dravin_img"/>
+                          <Image src={Dravin1} alt="dravin_img" />
                         </div>
                         <div className="w-100  flex flex-row mt-2 gap-2">
                           <div className="w-6/12 rounded-xl overflow-hidden">
-                            <Image src={Dravin2}  alt="dravin_img"/>
+                            <Image src={Dravin2} alt="dravin_img" />
                           </div>
                           <div className="w-6/12 rounded-xl overflow-hidden">
-                            <Image src={Dravin3}  alt="dravin_img"/>
+                            <Image src={Dravin3} alt="dravin_img" />
                           </div>
                         </div>
                         <div>
@@ -407,14 +406,26 @@ const Projects = () => {
                       <div>
                         {" "}
                         <div className="w-100  mt-4 rounded-xl overflow-hidden">
-                          <Image className="h-full w-full" src={JP1}  alt="jp_img"/>
+                          <Image
+                            className="h-full w-full"
+                            src={JP1}
+                            alt="jp_img"
+                          />
                         </div>
                         <div className="w-100  flex flex-row mt-2 gap-2">
                           <div className="w-6/12 rounded-xl overflow-hidden">
-                            <Image className="h-full w-full" src={JP2}  alt="jp_img"/>
+                            <Image
+                              className="h-full w-full"
+                              src={JP2}
+                              alt="jp_img"
+                            />
                           </div>
                           <div className="w-6/12 rounded-xl overflow-hidden">
-                            <Image className="h-full w-full" src={JP3}  alt="jp_img"/>
+                            <Image
+                              className="h-full w-full"
+                              src={JP3}
+                              alt="jp_img"
+                            />
                           </div>
                         </div>
                         <div>
@@ -555,14 +566,14 @@ const Projects = () => {
                       <div>
                         {" "}
                         <div className="w-100  mt-4 rounded-xl overflow-hidden">
-                          <Image src={VT1} alt="voidT_img"/>
+                          <Image src={VT1} alt="voidT_img" />
                         </div>
                         <div className="w-100  flex flex-row mt-2 gap-2">
                           <div className="w-6/12 rounded-xl overflow-hidden">
-                            <Image src={VT2} alt="voidT_img"/>
+                            <Image src={VT2} alt="voidT_img" />
                           </div>
                           <div className="w-6/12 rounded-xl overflow-hidden">
-                            <Image src={VT3}  alt="voidT_img"/>
+                            <Image src={VT3} alt="voidT_img" />
                           </div>
                         </div>
                         <div>
@@ -719,14 +730,14 @@ const Projects = () => {
                       <div>
                         {" "}
                         <div className="w-100 border  mt-4 rounded-xl overflow-hidden">
-                          <Image src={P1}  alt="portfolio_img"/>
+                          <Image src={P1} alt="portfolio_img" />
                         </div>
                         <div className="w-100  flex flex-row mt-2 gap-2">
                           <div className="w-6/12 border rounded-xl overflow-hidden">
-                            <Image src={P2}  alt="portfolio_img" />
+                            <Image src={P2} alt="portfolio_img" />
                           </div>
                           <div className="w-6/12 border rounded-xl overflow-hidden">
-                            <Image src={P3}  alt="portfolio_img"/>
+                            <Image src={P3} alt="portfolio_img" />
                           </div>
                         </div>
                         <div>

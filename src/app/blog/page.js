@@ -7,6 +7,12 @@ import Podcast from "./Podcast";
 import Reviews from "./Reviews";
 import Subscription from "./Subscription";
 
+export const metadata = {
+  title: "Best Software Developer Portfolio | Vishalvoid | Vishal KR Singh",
+  description:
+    "Explore Vishal's best software developer portfolio - showcasing expertise in web & app development. Discover innovative projects, skills, and achievements.",
+};
+
 const page = () => {
   return (
     <main className="w-full h-full inline-block z-0 bg-gray-900  ">

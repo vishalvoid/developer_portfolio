@@ -20,9 +20,43 @@ const Blogs = () => {
                 can it not do? AI? ML? DL? What are these? What
               </p>
               <div className="text-center p-2 mt-2">
-                <h1 className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
+                <p className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
                   Read More.
-                </h1>
+                </p>
+              </div>
+            </div>
+            <div className="md:w-[30%] sm:w-[47%] w-[95%]  border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100">
+              <h1 className="text-2xl font-semibold mb-2">
+                Begining ? what Begining
+              </h1>
+              <p className="text-xs px-2 py-1  bg-slate-600 inline rounded-md ">
+                Episode 1
+              </p>
+              <p className="text-[10px] text-justify mt-2">
+                Technology? What is it? How does it work? What can it do? What
+                can it not do? AI? ML? DL? What are these? What
+              </p>
+              <div className="text-center p-2 mt-2">
+                <p className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
+                  Read More.
+                </p>
+              </div>
+            </div>
+            <div className="md:w-[30%] sm:w-[47%] w-[95%]   border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100">
+              <h1 className="text-2xl font-semibold mb-2">
+                Begining ? what Begining
+              </h1>
+              <p className="text-xs px-2 py-1  bg-slate-600 inline rounded-md ">
+                Episode 1
+              </p>
+              <p className="text-[10px] text-justify mt-2">
+                Technology? What is it? How does it work? What can it do? What
+                can it not do? AI? ML? DL? What are these? What
+              </p>
+              <div className="text-center p-2 mt-2">
+                <p className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
+                  Read More.
+                </p>
               </div>
             </div>
             <div className="md:w-[30%] sm:w-[47%] w-[95%]  border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100">
@@ -54,43 +88,9 @@ const Blogs = () => {
                 can it not do? AI? ML? DL? What are these? What
               </p>
               <div className="text-center p-2 mt-2">
-                <h1 className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
+                <p className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
                   Read More.
-                </h1>
-              </div>
-            </div>
-            <div className="md:w-[30%] sm:w-[47%] w-[95%]  border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100">
-              <h1 className="text-2xl font-semibold mb-2">
-                Begining ? what Begining
-              </h1>
-              <p className="text-xs px-2 py-1  bg-slate-600 inline rounded-md ">
-                Episode 1
-              </p>
-              <p className="text-[10px] text-justify mt-2">
-                Technology? What is it? How does it work? What can it do? What
-                can it not do? AI? ML? DL? What are these? What
-              </p>
-              <div className="text-center p-2 mt-2">
-                <h1 className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
-                  Read More.
-                </h1>
-              </div>
-            </div>
-            <div className="md:w-[30%] sm:w-[47%] w-[95%]   border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100">
-              <h1 className="text-2xl font-semibold mb-2">
-                Begining ? what Begining
-              </h1>
-              <p className="text-xs px-2 py-1  bg-slate-600 inline rounded-md ">
-                Episode 1
-              </p>
-              <p className="text-[10px] text-justify mt-2">
-                Technology? What is it? How does it work? What can it do? What
-                can it not do? AI? ML? DL? What are these? What
-              </p>
-              <div className="text-center p-2 mt-2">
-                <h1 className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
-                  Read More.
-                </h1>
+                </p>
               </div>
             </div>
             <div className="md:w-[30%] sm:w-[47%] w-[95%]    border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100">
@@ -105,9 +105,9 @@ const Blogs = () => {
                 can it not do? AI? ML? DL? What are these? What
               </p>
               <div className="text-center p-2 mt-2">
-                <h1 className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
+                <p className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
                   Read More.
-                </h1>
+                </p>
               </div>
             </div>
             <div className="md:w-[30%] sm:w-[47%] w-[95%]   border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100">
@@ -122,9 +122,9 @@ const Blogs = () => {
                 can it not do? AI? ML? DL? What are these? What
               </p>
               <div className="text-center p-2 mt-2">
-                <h1 className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
+                <p className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
                   Read More.
-                </h1>
+                </p>
               </div>
             </div>
           </div>

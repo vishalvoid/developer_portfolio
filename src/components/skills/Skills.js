@@ -270,8 +270,8 @@ const Skills = () => {
                     <div> & Inovative</div>
                   </h1>
                   <p class="text-[10px] mt-1 font-raleway text-gray-300 lg:block hidden">
-                    ovserving everyone&#39;s thinking and realizing what no one has
-                    thought
+                    ovserving everyone&#39;s thinking and realizing what no one
+                    has thought
                   </p>
                 </div>
               </div>
