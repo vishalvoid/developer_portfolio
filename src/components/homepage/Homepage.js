@@ -32,7 +32,9 @@ const Homepage = () => {
           <div className="  h-full top-[50%]  ">
             {" "}
             <div className=" absolute  w-full xl:top-[50%] sm:top-[40%] top-[30%] -translate-y-[50%]">
-              <p className="text-sm font-light text-slate-400">Hello, I'm</p>
+              <p className="text-sm font-light text-slate-400">
+                Hello, I&#39;m
+              </p>
               <h2 className="cursive-heading2 sm:text-8xl text-6xl  text-slate-200 ">
                 Vishal Kr. Singh
               </h2>
