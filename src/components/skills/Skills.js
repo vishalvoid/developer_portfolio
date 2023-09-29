@@ -20,12 +20,10 @@ const Skills = () => {
 
   const toggleHandlerTrue = () => {
     settoggleSkills(true);
-    console.log("true" + toggleSkills);
   };
 
   const toggleHandlerFalse = () => {
     settoggleSkills(false);
-    console.log("false" + toggleSkills);
   };
   return (
     <main className="relative w-full h-full inline-block z-0 bg-gray-900 text-light   flex-col  ">

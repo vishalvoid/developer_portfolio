@@ -21,6 +21,8 @@ import Img12 from "../../components/assets/blog_img/12.svg";
 import Img13 from "../../components/assets/blog_img/13.svg";
 import Img14 from "../../components/assets/blog_img/14.svg";
 import Img15 from "../../components/assets/blog_img/15.svg";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 const Blog_content = (params) => {
   const page = parseInt(params.params);
@@ -53,20 +55,29 @@ const Blog_content = (params) => {
 
   return (
     <main id="ep" className="relative ">
-      <div className="  pt-[5rem] relative  2xl:px-[26rem] xl:px-[24rem] lg:px-[15rem] md:px-[8rem] sm:px-[6rem] px-[2rem]">
+      <div className="  pt-[5rem] relative  2xl:px-[26rem] xl:px-[22rem] lg:px-[15rem] md:px-[8rem] sm:px-[6rem] px-[2rem]">
         <div className="h-full w-full flex flex-col gap-2 ">
           <div className="py-2 h-[18rem] border-slate-700 rounded-lg border overflow-hidden object-cover">
-            <Image
-              src={imagesObject[`${BlogData[number].img}`]}
-              alt="blog_img"
-              className="w-full h-full"
-            />
+            {(
+              <Image
+                src={imagesObject[`${BlogData[number].img}`]}
+                alt="blog_img"
+                className="w-full h-full"
+              />
+            ) || (
+              <SkeletonTheme baseColor="#111828" highlightColor="#212a40">
+                <Skeleton className="w-full h-full" />
+              </SkeletonTheme>
+            )}
           </div>
           <h1 className="text-3xl mt-2 pb-0 font-semibold tracking-wide text-slate-200">
             {BlogData[number].title}
           </h1>
-          <div className="text-xs text-slate-300 rounded-lg ">
-            Episode {BlogData[number].episode}
+          <div className="text-sm text-slate-300 rounded-lg ">
+            <p className="inline bg-slate-700 px-3 py-1 rounded-md">
+              {" "}
+              Episode {BlogData[number].episode}
+            </p>
           </div>
           <div className="flex font-serif text-xs text-slate-300 pt-3  justify-between ">
             <p>
@@ -83,11 +94,15 @@ const Blog_content = (params) => {
             </p>
           </div>
           <p className="text-justify font-sans leading-6 font-light text-sm text-gray-400 py-6 border-y  border-slate-700">
-            {parse(BlogData[number].data)}
+            {parse(BlogData[number].data) || (
+              <SkeletonTheme baseColor="#111828" highlightColor="#212a40">
+                <Skeleton className="w-full h-full" />
+              </SkeletonTheme>
+            )}
           </p>
           <Blog_content_buttons params={number} />
           <div class="flex items-center justify-center py-4 pl-6">
-            <a href="https:instagram.com/vishal.void">
+            <a href="https://instagram.com/vishal.void">
               <div class="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
                 <div className="text-white bg-slate-300 p-2 rounded-lg">
                   <svg
@@ -100,7 +115,7 @@ const Blog_content = (params) => {
                 </div>
               </div>
             </a>
-            <a href="https:twitter.com/vishal_void">
+            <a href="https://twitter.com/vishal_void">
               <div class="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
                 <div className="text-white bg-slate-300 p-2 rounded-lg">
                   <svg
@@ -113,7 +128,7 @@ const Blog_content = (params) => {
                 </div>
               </div>
             </a>
-            <a href="https:linkedin.com/in/vishalvoid">
+            <a href="https://linkedin.com/in/vishalvoid">
               <div class="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
                 <div className="text-white bg-slate-300 p-2 rounded-lg">
                   <svg
@@ -126,7 +141,7 @@ const Blog_content = (params) => {
                 </div>
               </div>
             </a>
-            <a href="https:github.com/vishalvoid">
+            <a href="https://github.com/vishalvoid">
               <div class="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
                 <div className="text-white bg-slate-300 p-2 rounded-lg">
                   <svg

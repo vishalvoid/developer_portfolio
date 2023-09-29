@@ -5,11 +5,11 @@ import Blog_Card from "./Blog_Card";
 
 const Blogs = () => {
   return (
-    <div id="Blogs" className="w-full py-12">
-      <div className="py-4 lg:px-40 px-10 ">
-        <div className=" h-screen w-full ml-[50%] -translate-x-[50%] xl:px-20 px-2">
+    <div id="Blogs" className="w-full h-full py-12">
+      <div className=" relative py-4 lg:px-40 px-10 ">
+        <div className=" md:h-screen h-full w-full ml-[50%] -translate-x-[50%] xl:px-20 px-2">
           <h1 className="home_heading text-4xl py-4 ">Blogs</h1>
-          <div className="flex flex-wrap lg:gap-8 gap-4 h-[80vh]  overflow-y-scroll">
+          <div className="flex flex-wrap  lg:gap-8 gap-4 md:h-[80vh]  md:overflow-y-scroll py-4">
             <Blog_Card
               title={BlogData[1].title.substring(0, 30)}
               episode={BlogData[1].episode}

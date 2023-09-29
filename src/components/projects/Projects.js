@@ -53,13 +53,13 @@ const Projects = () => {
     <main className="w-full  h-full inline-block z-0 bg-gray-900 text-light md:p-14 p-8  flex-col  ">
       {Open !== true ? (
         <div>
-          <div className="    2xl:mt-16 md:mt-12 mt-10  2xl:px-60 xl:px-24 md:px-10 px-2">
-            <div className=" h-full flex flex-wrap ">
+          <div className="    2xl:mt-16 md:mt-12 mt-10 pt-16 sm:pt-0  2xl:px-60 xl:px-24 md:px-10 px-2 ">
+            <div className=" h-full flex flex-wrap sm:gap-0 gap-5">
               <div
                 onClick={() => openProjectHandler(1)}
-                className="lg:w-4/12 sm:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4  sm:mt-0 "
+                className="lg:w-4/12 md:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4  sm:mt-0 "
               >
-                <div className="border overflow-hidden border-slate-800 hover:border-purple-200 transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
+                <div className="border overflow-hidden sm:border-slate-800 border-slate-600 hover:border-purple-200 transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
                   <div className="text-xl font-bold text-slate-300 mb-1">
                     Dravin
                   </div>
@@ -84,9 +84,9 @@ const Projects = () => {
 
               <div
                 onClick={() => openProjectHandler(2)}
-                className="lg:w-4/12 sm:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 "
+                className="lg:w-4/12 md:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 "
               >
-                <div className="border overflow-hidden border-slate-800  hover:border-yellow-200 transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
+                <div className="border overflow-hidden sm:border-slate-800 border-slate-600 hover:border-yellow-200 transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
                   <div className="text-xl font-bold text-slate-300 mb-1">
                     JP Foundation
                   </div>
@@ -108,9 +108,9 @@ const Projects = () => {
               </div>
               <div
                 onClick={() => openProjectHandler(3)}
-                className="lg:w-4/12 sm:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 "
+                className="lg:w-4/12 md:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 "
               >
-                <div className="border overflow-hidden border-slate-800  hover:border-red-200 transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
+                <div className="border overflow-hidden sm:border-slate-800 border-slate-600  hover:border-red-200 transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
                   <div className="text-xl font-bold text-slate-300 mb-1">
                     Void Tables
                   </div>
@@ -135,9 +135,9 @@ const Projects = () => {
 
               <div
                 onClick={() => openProjectHandler(4)}
-                className="lg:w-4/12 sm:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 "
+                className="lg:w-4/12 md:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 "
               >
-                <div className="border overflow-hidden border-slate-800  hover:border-slate-200 transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
+                <div className="border overflow-hidden sm:border-slate-800 border-slate-600  hover:border-slate-200 transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
                   <div className="text-2xl font-bold text-slate-300 mb-1">
                     Portfolio
                   </div>
@@ -158,7 +158,7 @@ const Projects = () => {
                   </p>
                 </div>
               </div>
-              <div className="lg:w-4/12  sm:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 ">
+              <div className="lg:w-4/12 sm:block hidden  sm:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 ">
                 <div className="border overflow-hidden border-slate-800  transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
                   <div className="text-2xl font-bold text-slate-300 mb-1">
                     Batak
@@ -186,7 +186,7 @@ const Projects = () => {
                 className="lg:w-4/12 sm:w-1/2 w-full mb-2 sm:mb-0 sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 "
               >
                 <div className=" text-center overflow-hidden   sm:border sm:border-slate-200  transition ease-out duration-150 h-full rounded-xl sm:p-6 p-2 sm:bg-slate-950 bg-slate-800 cursor-pointer md:py-10 sm:py-7">
-                  View More
+                  View More Projects
                   <div>
                     <div className="md:mt-5 mt-2 text-gray-400 hover:text-gray-50  transition ease-out duration-150 sm:block hidden">
                       <FontAwesomeIcon

@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Astro from "../assets/Astro.svg";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import "react-loading-skeleton/dist/skeleton.css";
 
 const About = () => {
   const [toggle, setToggle] = useState("false");
@@ -20,11 +22,17 @@ const About = () => {
     <main className="w-full  h-full inline-block z-0 bg-gray-900 text-light sm:p-10 p-0">
       <div className="flex  lg:flex-row flex-col w-9/12 h-5/6  m-auto mt-12 sm:gap-8 gap-2">
         <div className="lg:w-6/12 w-full h-full  flex justify-around items-center">
-          <Image
-            className="brightness-200 h-fit "
-            src={Astro}
-            alt="about-svg"
-          />
+          {(
+            <Image
+              className="brightness-200 h-fit "
+              src={Astro}
+              alt="about-svg"
+            />
+          ) || (
+            <SkeletonTheme baseColor="#111828" highlightColor="#212a40">
+              <Skeleton className="w-full h-full" />
+            </SkeletonTheme>
+          )}
         </div>
         <div className="lg:w-6/12 w-full h-full xl:p-6 p-2 flex flex-col justify-around">
           <div className="tracking-wider items-center   text-justify text-gray-300 text-xs leading-7">
@@ -69,10 +77,10 @@ const About = () => {
                 // onClick={(events) => console.log("bad")}
                 className=" bg-slate-800 hover:bg-slate-700 xl:px-12 px-6 py-3 rounded-full transition duration-150 ease-in-out"
               >
-                Qualification
+                <a href="#tree">Qualification</a>
               </button>
               <button className=" border border-slate-700 hover:border-slate-600 xl:px-8 px-4 py-2 rounded-full">
-                Contact
+                <a href="#contact">Contact</a>
               </button>
               <button
                 onClick={toggleHandler}

@@ -15,7 +15,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <main className="w-full h-full inline-block  bg-gray-900  ">
+    <main className="w-full  inline-block  bg-gray-900  ">
       <div>
         <Navbar_blog />
         <Blogpage_home />

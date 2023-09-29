@@ -4,7 +4,7 @@ import Data from "../../app/blog/Data.json";
 const Home_Blog = () => {
   return (
     <main className="w-full h-full inline-block z-0 bg-gray-900 text-light sm:p-20 p-6 ">
-      <div className="  lg:px-32 sm:px-10 px-0 flex flex-col gap-3 sm:mt-0 mt-10">
+      <div className="  lg:px-32 sm:px-10 px-0 flex flex-col gap-3 sm:mt-0 mt-10 lg:pt-10">
         <a href="/blog/8">
           <div className="  flex flex-row gap-5 cursor-pointer  ">
             <div className=" w-full  overflow-hidden rounded-lg p-4 hover:bg-slate-800 transition ease-in-out duration-150">

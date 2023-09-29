@@ -8,8 +8,8 @@ const Blog_Card = ({ title, episode, data }) => {
         Episode {episode}
       </p>
       <p className="text-[10px] text-justify mt-2">{data}...</p>
-      <div className="text-center p-2 mt-2">
-        <p className="bg-slate-700 p-2 rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
+      <div className="text-center p-2 mt-2 px-12">
+        <p className="bg-slate-700 p-2  rounded-full hover:bg-slate-800 hover:border-slate-400 border border-slate-700 cursor-pointer">
           <a href={`/blog/${episode}`}>Read more</a>
         </p>
       </div>

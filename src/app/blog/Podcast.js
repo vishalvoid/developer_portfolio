@@ -7,7 +7,7 @@ const Podcast = () => {
       <div className="py-4 lg:px-40 px-10 ">
         <div className=" mb-16 w-full ml-[50%] -translate-x-[50%] xl:px-20 px-2">
           <h1 className="home_heading text-4xl py-4 ">Podcast</h1>
-          <div className="flex flex-wrap lg:gap-8 gap-4 max-h-[80vh]  overflow-y-auto">
+          <div className="flex flex-wrap lg:gap-8 gap-4 max-h-[80vh]  md:overflow-y-auto">
             <div className=" md:w-[30%] sm:w-[47%] w-[95%] border border-slate-700 rounded-2xl p-4  hover:border-slate-400 transition ease-in duration-100 py-6">
               <h1 className="text-2xl font-semibold mb-2">
                 Begining ? what Begining
