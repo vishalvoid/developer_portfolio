@@ -20,6 +20,20 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          property="og:title"
+          content="Vishal Kr Singh | Web & App Developer"
+        />
+        <meta
+          property="og:description"
+          content="And a social description for our cool page"
+        />
+        <meta
+          property="og:image"
+          content="https://example.com/images/cool-page.jpg"
+        />
+      </head>
       <body className={raleway.className}>{children}</body>
     </html>
   );
