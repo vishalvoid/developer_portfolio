@@ -8,9 +8,9 @@ import Reviews from "./Reviews";
 import Subscription from "./Subscription";
 
 export const metadata = {
-  title: "Best Software Developer Portfolio | Vishalvoid | Vishal KR Singh",
+  title: "Code, Create, Connect: Vishal Singh's Tech Blog",
   description:
-    "Explore Vishal's best software developer portfolio - showcasing expertise in web & app development. Discover innovative projects, skills, and achievements.",
+    "Start your tech adventure with Vishal Singh's blog. Discover web and app development insights, and stay connected to the fast-paced world of technology through expert articles and guidance.",
 };
 
 const page = () => {

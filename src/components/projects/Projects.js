@@ -87,15 +87,15 @@ const Projects = () => {
                 className="lg:w-4/12 md:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 "
               >
                 <div className="border overflow-hidden sm:border-slate-800 border-slate-600 hover:border-yellow-200 transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
-                  <div className="text-xl font-bold text-slate-300 mb-1">
+                  <h2 className="text-xl font-bold text-slate-300 mb-1">
                     JP Foundation
-                  </div>
-                  <div className="text-xs text-slate-400 mb-2">NGO Website</div>
-                  <div className="text-[10px] text-slate-400 md:block hidden">
+                  </h2>
+                  <h2 className="text-xs text-slate-400 mb-2">NGO Website</h2>
+                  <p className="text-[10px] text-slate-400 md:block hidden">
                     Beautifull Looking website built over the basic power of
                     html css and js. also included payment gateway to reveive
                     donations...
-                  </div>
+                  </p>
 
                   <p className=" text-[12px] text-slate-400 mt-2 mr-2 sm:block hidden">
                     View &nbsp;
@@ -111,17 +111,17 @@ const Projects = () => {
                 className="lg:w-4/12 md:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 "
               >
                 <div className="border overflow-hidden sm:border-slate-800 border-slate-600  hover:border-red-200 transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
-                  <div className="text-xl font-bold text-slate-300 mb-1">
+                  <h2 className="text-xl font-bold text-slate-300 mb-1">
                     Void Tables
-                  </div>
-                  <div className="text-xs text-slate-400 mb-2">
+                  </h2>
+                  <h2 className="text-xs text-slate-400 mb-2">
                     Restraunt Booking WebApp
-                  </div>
-                  <div className="text-[10px] text-slate-400 md:block hidden">
+                  </h2>
+                  <p className="text-[10px] text-slate-400 md:block hidden">
                     A Website to reserve tables in restraunt by choosing the
                     best one for you. in real time. after watching the dish and
                     price along with it.
-                  </div>
+                  </p>
 
                   <p className=" text-[12px]   text-slate-400 mt-2 mr-2 sm:block hidden">
                     View &nbsp;
@@ -138,16 +138,16 @@ const Projects = () => {
                 className="lg:w-4/12 md:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 "
               >
                 <div className="border overflow-hidden sm:border-slate-800 border-slate-600  hover:border-slate-200 transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
-                  <div className="text-2xl font-bold text-slate-300 mb-1">
+                  <h3 className="text-2xl font-bold text-slate-300 mb-1">
                     Portfolio
-                  </div>
-                  <div className="text-xs text-slate-400 mb-2">
+                  </h3>
+                  <h4 className="text-xs text-slate-400 mb-2">
                     Personal Website
-                  </div>
-                  <div className="text-[10px] text-slate-400 md:block hidden">
+                  </h4>
+                  <p className="text-[10px] text-slate-400 md:block hidden">
                     A portfolio to showcase your talent is must. here it is
                     created beautifully using some latest tech stacks. Next Js
-                  </div>
+                  </p>
 
                   <p className=" text-[12px] text-slate-400 mt-2 mr-2 sm:block hidden">
                     View &nbsp;
@@ -160,17 +160,17 @@ const Projects = () => {
               </div>
               <div className="lg:w-4/12 sm:block hidden  sm:w-1/2 w-full sm:h-3/6  sm:py-5 sm:px-4 mt-2 sm:mt-0 ">
                 <div className="border overflow-hidden border-slate-800  transition ease-out duration-150 h-full rounded-xl p-6 sm:bg-slate-950 bg-slate-800 cursor-pointer">
-                  <div className="text-2xl font-bold text-slate-300 mb-1">
+                  <h3 className="text-2xl font-bold text-slate-300 mb-1">
                     Batak
-                  </div>
-                  <div className="text-xs text-slate-400 mb-2">
+                  </h3>
+                  <h3 className="text-xs text-slate-400 mb-2">
                     Hangout Space WebApp
-                  </div>
-                  <div className="text-[10px] text-slate-400 md:block hidden">
+                  </h3>
+                  <p className="text-[10px] text-slate-400 md:block hidden">
                     A place where a group of people can come and hangout. via
                     video and audio and along with this there will be group
                     feature
-                  </div>
+                  </p>
 
                   <p className=" text-[12px] text-red-400 mt-2 mr-2">
                     <span>In Development</span> &nbsp;
@@ -207,8 +207,7 @@ const Projects = () => {
             role="alert"
           >
             <span class="font-medium -tracking-2  ">Sorry ! </span>
-            More Projects might&#39;ve ran away. don&#39;t worry ! &#34;I&#39;ll
-            Find them for You&#34;
+            Not found - coming soon.
           </div>
         </div>
       ) : (
@@ -236,11 +235,11 @@ const Projects = () => {
                       <h1 className="text-3xl  text-purple-300 font-semibold">
                         Dravin - Get Social
                       </h1>
-                      <p className="mt-2 text-xs text-slate-200">
+                      <h2 className="mt-2 text-xs text-slate-200">
                         {" "}
                         Full Stack Social Media WebApp
-                      </p>
-                      <p className="mt-2 text-xs text-slate-400">
+                      </h2>
+                      <h3 className="mt-2 text-xs text-slate-400">
                         &#34;Experience the future of social networking with our
                         cutting-edge fullstack web app. Seamlessly connect with
                         friends, share moments, and explore innovative features
@@ -248,7 +247,7 @@ const Projects = () => {
                         sleek user interfaces to robust backend functionalities,
                         we&#39;ve got it all covered. Join us in shaping the
                         digital social landscape of tomorrow!&#34;
-                      </p>
+                      </h3>
                       <div>
                         {" "}
                         <div className="w-100  mt-4 rounded-xl overflow-hidden">
@@ -393,16 +392,16 @@ const Projects = () => {
                       <h1 className="text-3xl  text-yellow-200 font-semibold">
                         JP Foundation
                       </h1>
-                      <p className="mt-2 text-xs text-slate-200">
+                      <h2 className="mt-2 text-xs text-slate-200">
                         {" "}
                         Website for an NGO.
-                      </p>
-                      <p className="mt-2 text-xs text-slate-400">
+                      </h2>
+                      <h3 className="mt-2 text-xs text-slate-400">
                         &#34;Jayaprakash Narayan Foundation, a noble initiative
                         under the Central Government of India, dedicated to
                         driving positive change and social upliftment in our
                         nation.&#34;
-                      </p>
+                      </h3>
                       <div>
                         {" "}
                         <div className="w-100  mt-4 rounded-xl overflow-hidden">
@@ -551,18 +550,18 @@ const Projects = () => {
                       <h1 className="text-3xl  text-red-300 font-semibold">
                         voidTables
                       </h1>
-                      <p className="mt-2 text-xs text-slate-200">
+                      <h2 className="mt-2 text-xs text-slate-200">
                         {" "}
                         A Restraunt Booking WebAPP
-                      </p>
-                      <p className="mt-2 text-xs text-slate-400">
+                      </h2>
+                      <h3 className="mt-2 text-xs text-slate-400">
                         &#34;voidTable is a online restaurant reservation
                         platform, simplifying the dining experience by allowing
                         users to book tables at their favorite restaurants with
                         ease. With a vast network of participating eateries, it
                         connects diners and establishments for memorable
                         culinary adventures.&#34;
-                      </p>
+                      </h3>
                       <div>
                         {" "}
                         <div className="w-100  mt-4 rounded-xl overflow-hidden">
@@ -714,11 +713,11 @@ const Projects = () => {
                       <h1 className="text-3xl  text-gray-300 font-semibold">
                         Portfolio
                       </h1>
-                      <p className="mt-2 text-xs text-slate-200">
+                      <h2 className="mt-2 text-xs text-slate-200">
                         {" "}
                         A NextJS Based Personal Portfolio
-                      </p>
-                      <p className="mt-2 text-xs text-slate-400">
+                      </h2>
+                      <h3 className="mt-2 text-xs text-slate-400">
                         &#34;Experience the future of social networking with our
                         cutting-edge fullstack web app. Seamlessly connect with
                         friends, share moments, and explore innovative features
@@ -726,7 +725,7 @@ const Projects = () => {
                         sleek user interfaces to robust backend functionalities,
                         we&#39;ve got it all covered. Join us in shaping the
                         digital social landscape of tomorrow!&#34;
-                      </p>
+                      </h3>
                       <div>
                         {" "}
                         <div className="w-100 border  mt-4 rounded-xl overflow-hidden">
