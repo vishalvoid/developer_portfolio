@@ -1,12 +1,10 @@
 import "./globals.css";
 import { Raleway } from "next/font/google";
 
-// import Font Awesome CSS
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
 import { config } from "@fortawesome/fontawesome-svg-core";
-// Tell Font Awesome to skip adding the CSS automatically
-// since it's already imported above
+
 config.autoAddCss = false;
 
 const raleway = Raleway({ subsets: ["latin"] });
@@ -23,10 +21,10 @@ export const metadata = {
     siteName: "vishalvoid.com",
     images: [
       {
-        url: "https://vishalvoid.com/images/opengraph.png",
+        url: "https://vishalvoid.com/images/open-graph.jpg",
       },
       {
-        url: "https://vishalvoid.com/images/opengraph.png",
+        url: "https://vishalvoid.com/images/open-graph.jpg",
 
         alt: "opengraph image",
       },
@@ -39,7 +37,7 @@ export const metadata = {
     title: "Web & App Development by Vishal Kr Singh | Portfolio ",
     description:
       "Vishal Kumar Singh - Web & App Developer Portfolio | Explore stunning web design, mobile app development, and digital innovation. Hire Vishal for top-tier web & app solutions.",
-    images: ["https://vishalvoid.com/images/opengraph.png"],
+    images: ["https://vishalvoid.com/images/open-graph.jpg"],
   },
 };
 
