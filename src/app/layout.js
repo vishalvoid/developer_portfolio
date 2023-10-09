@@ -23,14 +23,11 @@ export const metadata = {
     siteName: "vishalvoid.com",
     images: [
       {
-        url: "/images/opengraph.png",
-        width: 1000,
-        height: 600,
+        url: "https://vishalvoid.com/images/opengraph.png",
       },
       {
-        url: "/images/opengraph.png",
-        width: 2000,
-        height: 1600,
+        url: "https://vishalvoid.com/images/opengraph.png",
+
         alt: "opengraph image",
       },
     ],
@@ -42,7 +39,7 @@ export const metadata = {
     title: "Web & App Development by Vishal Kr Singh | Portfolio ",
     description:
       "Vishal Kumar Singh - Web & App Developer Portfolio | Explore stunning web design, mobile app development, and digital innovation. Hire Vishal for top-tier web & app solutions.",
-    images: ["/images/opengraph.png"],
+    images: ["https://vishalvoid.com/images/opengraph.png"],
   },
 };
 
@@ -121,7 +118,10 @@ export default function RootLayout({ children }) {
         />
         <link rel="manifest" href="/images/manifest.json" />
         <meta name="msapplication-TileColor" content="#ffffff" />
-        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta
+          name="msapplication-TileImage"
+          content="/images/ms-icon-144x144.png"
+        />
         <meta name="theme-color" content="#ffffff" />
       </head>
       <body className={raleway.className}>{children}</body>
