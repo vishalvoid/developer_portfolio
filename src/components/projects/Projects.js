@@ -41,7 +41,6 @@ const Projects = () => {
   };
 
   const showMoreHandler = () => {
-    console.log(showMore);
     if (showMore === false) {
       setShowMore(true);
     } else {

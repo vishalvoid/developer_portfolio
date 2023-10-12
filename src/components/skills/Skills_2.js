@@ -15,7 +15,7 @@ import "react-loading-skeleton/dist/skeleton.css";
 
 const Skills_2 = () => {
   const [counterOn, setcounterOn] = useState(false);
-  console.log(counterOn);
+ 
   return (
     <ScrollTrigger
       onEnter={() => setcounterOn(true)}

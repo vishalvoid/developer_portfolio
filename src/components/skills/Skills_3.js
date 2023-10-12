@@ -12,10 +12,10 @@ const Skills_3 = () => {
       onExit={() => setcounterOn(false)}
     >
       <main className="w-full h-screen inline-block z-0 bg-gray-900 text-light p-10">
-        <div className="flex   lg:flex-col flex-col lg:w-9/12 w-full lg:h-5/6 h-[80vh]  m-auto lg:mt-24 mt-20 ">
+        <div className="flex   lg:flex-col flex-col lg:w-10/12 w-full lg:h-5/6 h-[80vh]  m-auto lg:mt-24 mt-20 ">
           <div className="  w-full h-full flex flex-col items-start  ">
             {" "}
-            <h1 className="sm:text-4xl text-3xl text-gray-300 font-semibold">
+            <h1 className="sm:text-4xl text-3xl text-gray-500 font-semibold">
               Web & App Development
             </h1>
             <div className="flex flex-wrap items-center h-full pb-8 sm:py-0 py-8 ">
@@ -256,7 +256,7 @@ const Skills_3 = () => {
           </div>
           <div className="  w-full h-full flex flex-col items-start ">
             {" "}
-            <h1 className="sm:text-4xl text-3xl text-gray-300 font-semibold">
+            <h1 className="sm:text-4xl text-3xl text-gray-500 font-semibold">
               Cloud Computing & Language
             </h1>
             <div className="flex items-center h-full pb-8 ">
@@ -347,7 +347,7 @@ const Skills_3 = () => {
           </div>
           <div className="  w-full h-full flex flex-col items-start ">
             {" "}
-            <h1 className="sm:text-4xl text-3xl text-gray-300 font-semibold">
+            <h1 className="sm:text-4xl text-3xl text-gray-500 font-semibold">
               Tools & Technologies
             </h1>
             <div className="flex items-center h-full pb-8 ">
