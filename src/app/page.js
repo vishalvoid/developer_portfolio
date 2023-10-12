@@ -10,6 +10,7 @@ import Projects from "@/components/projects/Projects";
 import Experience from "@/components/skills/Experience";
 import Skills from "@/components/skills/Skills";
 import Skills_2 from "@/components/skills/Skills_2";
+import Skills_3 from "@/components/skills/Skills_3";
 import Image from "next/image";
 
 export default function Home() {
@@ -30,8 +31,12 @@ export default function Home() {
           <Skills />
         </div>
         <div className="snap-start w-screen h-screen">
+          <Skills_3 />
+        </div>
+        <div className="snap-start w-screen h-screen">
           <Skills_2 />
         </div>
+
         <div className="snap-start w-screen h-screen">
           <Experience />
         </div>
