@@ -11,42 +11,42 @@ const Blogs = () => {
           <h1 className="home_heading text-4xl py-4 ">Blogs</h1>
           <div className="flex flex-wrap  lg:gap-8 gap-4 md:h-[80vh]  md:overflow-y-scroll py-4">
             <Blog_Card
-              title={BlogData[1].title.substring(0, 30)}
+              title={BlogData[1].title.substring(0, 25)}
               episode={BlogData[1].episode}
               data={BlogData[1].data.substring(0, 120)}
             />
             <Blog_Card
-              title={BlogData[2].title.substring(0, 30)}
+              title={BlogData[2].title.substring(0, 25)}
               episode={BlogData[2].episode}
               data={BlogData[2].data.substring(0, 120)}
             />
             <Blog_Card
-              title={BlogData[3].title.substring(0, 30)}
+              title={BlogData[3].title.substring(0, 25)}
               episode={BlogData[3].episode}
               data={BlogData[3].data.substring(0, 120)}
             />
             <Blog_Card
-              title={BlogData[4].title.substring(0, 30)}
+              title={BlogData[4].title.substring(0, 25)}
               episode={BlogData[4].episode}
               data={BlogData[4].data.substring(0, 120)}
             />
             <Blog_Card
-              title={BlogData[5].title.substring(0, 30)}
+              title={BlogData[5].title.substring(0, 25)}
               episode={BlogData[5].episode}
               data={BlogData[5].data.substring(0, 120)}
             />
             <Blog_Card
-              title={BlogData[6].title.substring(0, 30)}
+              title={BlogData[6].title.substring(0, 25)}
               episode={BlogData[6].episode}
               data={BlogData[6].data.substring(0, 120)}
             />
             <Blog_Card
-              title={BlogData[7].title.substring(0, 30)}
+              title={BlogData[7].title.substring(0, 25)}
               episode={BlogData[7].episode}
               data={BlogData[7].data.substring(0, 120)}
             />
             <Blog_Card
-              title={BlogData[8].title.substring(0, 30)}
+              title={BlogData[8].title.substring(0, 25)}
               episode={BlogData[8].episode}
               data={BlogData[8].data.substring(0, 120)}
             />

@@ -22,7 +22,9 @@ const Navbar_blog = () => {
   return (
     <main className="w-screen h-full bg-gray-900 z-50">
       <div className="fixed  w-full bg-gray-900 justify-between items-center px-8 h-[10vh] flex flex-row z-50">
-        <div className="home_heading text-3xl">Vish.Pen</div>
+        <div className="home_heading text-3xl">
+          Vish. <span className="font-sans font-thin"> (Blog Secion)</span>
+        </div>
         <div className="lg:block hidden">
           <ul className="flex flex-row gap-4 text-gray-400 mr-4 z-50">
             <li className="hover:text-slate-300 cursor-pointer scroll-smooth">

@@ -10,13 +10,13 @@ const Home_Blog = () => {
             <div className=" w-full  overflow-hidden rounded-lg p-4 hover:bg-slate-800 transition ease-in-out duration-150">
               <div className="flex flex-row justify-between pr-2 border-b mb-2 border-slate-800">
                 <p className="font-serif text-gray-400  text-sm ">
-                  {Data[8].date}
+                  {Data[1].date}
                 </p>
                 <p className="text-sm text-gray-400">
-                  ~ Episode {Data[8].episode}{" "}
+                  ~ Episode {Data[1].episode}{" "}
                 </p>
               </div>
-              <h1 className="text-2xl font-serif">{Data[8].title}</h1>
+              <h1 className="text-2xl font-serif">{Data[1].title}</h1>
             </div>
           </div>
         </a>
@@ -25,13 +25,13 @@ const Home_Blog = () => {
             <div className=" w-full  overflow-hidden rounded-lg p-4 hover:bg-slate-800 transition ease-in-out duration-150">
               <div className="flex flex-row justify-between pr-2 border-b mb-2 border-slate-800">
                 <p className="font-serif text-gray-400  text-sm ">
-                  {Data[7].date}
+                  {Data[2].date}
                 </p>
                 <p className="text-sm text-gray-400">
-                  ~ Episode {Data[7].episode}{" "}
+                  ~ Episode {Data[2].episode}{" "}
                 </p>
               </div>
-              <h1 className="text-2xl font-serif">{Data[7].title}</h1>
+              <h1 className="text-2xl font-serif">{Data[2].title}</h1>
             </div>
           </div>
         </a>
@@ -40,13 +40,13 @@ const Home_Blog = () => {
             <div className=" w-full  overflow-hidden rounded-lg p-4 hover:bg-slate-800 transition ease-in-out duration-150">
               <div className="flex flex-row justify-between pr-2 border-b mb-2 border-slate-800">
                 <p className="font-serif text-gray-400  text-sm ">
-                  {Data[6].date}
+                  {Data[3].date}
                 </p>
                 <p className="text-sm text-gray-400">
-                  ~ Episode {Data[6].episode}{" "}
+                  ~ Episode {Data[3].episode}{" "}
                 </p>
               </div>
-              <h1 className="text-2xl font-serif">{Data[6].title}</h1>
+              <h1 className="text-2xl font-serif">{Data[3].title}</h1>
             </div>
           </div>
         </a>
@@ -55,20 +55,20 @@ const Home_Blog = () => {
             <div className=" w-full  overflow-hidden rounded-lg p-4 hover:bg-slate-800 transition ease-in-out duration-150">
               <div className="flex flex-row justify-between pr-2 border-b mb-2 border-slate-800">
                 <p className="font-serif text-gray-400  text-sm ">
-                  {Data[5].date}
+                  {Data[4].date}
                 </p>
                 <p className="text-sm text-gray-400">
-                  ~ Episode {Data[5].episode}{" "}
+                  ~ Episode {Data[4].episode}{" "}
                 </p>
               </div>
-              <h1 className="text-2xl font-serif">{Data[5].title}</h1>
+              <h1 className="text-2xl font-serif">{Data[4].title}</h1>
             </div>
           </div>
         </a>
 
         <div className="text-center">
           <p className="mt-2 bg-slate-800 px-4 py-2 text-xs cursor-pointer hover:border-slate-100 transition ease-in duration-100 border border-slate-900 inline-block rounded-lg">
-            <a href="/blog">Go to Blog Section</a>
+            <a href="/blog">More (Blog Section)</a>
           </p>
         </div>
       </div>
