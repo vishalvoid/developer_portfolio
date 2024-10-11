@@ -2,7 +2,7 @@ name: contribution-streak-maintainer
 
 on:
   schedule:
-    - cron: "0 22 * * *"  # Runs every day at 10:00 PM UTC
+    - cron: "0 22 * * *"  # Scheduled at 10:00 PM UTC daily (will be adjusted randomly)
   workflow_dispatch:       # Allows manual triggering
 
 permissions:
@@ -15,24 +15,37 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2  # Checks out your repository code
 
+      # Install dependencies if needed
       - name: Install dependencies
-        run: npm install contribution-streak-maintainer  # Install npm package
+        run: npm install contribution-streak-maintainer
 
       - name: Make a contribution
         run: npx contribution-streak-maintainer ${{github.repository}} --email=tech.vishalkrsingh@gmail.com
         env:
           DEVFUL_GITHUB_TOKEN: ${{ secrets.CSM_GITHUB_TOKEN }}
 
-      # Step to check for any changes and commit them
       - name: Configure Git
         run: |
           git config --global user.name "Vishal Kumar Singh"
           git config --global user.email "tech.vishalkrsingh@gmail.com"
 
-      - name: Commit changes
+      # Random sleep time between 1 to 3 hours (3600 to 10800 seconds)
+      - name: Sleep for random time
         run: |
+          sleep $(( RANDOM % 7200 + 3600 ))
+
+      # Commit changes with random commit messages
+      - name: Generate and commit changes
+        run: |
+          # Array of random commit messages
+          MESSAGES=("Refined project setup" "Improved code formatting" "Optimized performance" "Updated docs" "Small tweak in code" "Added minor improvements" "Refactor code structure" "Resolved minor bug" "Adjusted configs")
+          
+          # Select a random message from the array
+          COMMIT_MSG=${MESSAGES[$RANDOM % ${#MESSAGES[@]}]}
+          
+          # Add and commit changes
           git add .
-          git commit -m "Fixed minor bugs and fixes" || echo "No changes to commit"
+          git commit -m "$COMMIT_MSG" || echo "No changes to commit"
 
       - name: Push changes
         run: git push
