@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Make a contribution
-        run: npx contribution-streak-maintainer ${{github.repository}} --tech.vishalkrsingh@gmail.com
+        run: npx contribution-streak-maintainer ${{github.repository}} --email=tech.vishalkrsingh@gmail.com
         env:
-          DEVFUL_GITHUB_TOKEN: ${{ secrets.CSM_GITHUB_TOKEN }}`
+          DEVFUL_GITHUB_TOKEN: ${{ secrets.CSM_GITHUB_TOKEN }}
