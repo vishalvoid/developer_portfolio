@@ -19,6 +19,6 @@ jobs:
         run: npm install contribution-streak-maintainer # Install npm package
 
       - name: Make a contribution
-        run: npx contribution-streak-maintainer ${{github.repository}} --tech.vishalkrsingh@gmail.com
+        run: npx contribution-streak-maintainer ${{github.repository}} --email=tech.vishalkrsingh@gmail.com
         env:
           DEVFUL_GITHUB_TOKEN: ${{ secrets.CSM_GITHUB_TOKEN }} # Use your GitHub secret token
