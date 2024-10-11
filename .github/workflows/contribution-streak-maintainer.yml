@@ -2,8 +2,8 @@ name: contribution-streak-maintainer
 
 on:
   schedule:
-    # This cron schedule runs the action every day at 10:00 PM UTC
-    - cron: "0 22 * * *"
+    - cron: "0 22 * * *" # Runs every day at 10:00 PM UTC
+  workflow_dispatch: # Allows manual triggering
 
 permissions:
   contents: write
@@ -12,7 +12,13 @@ jobs:
   contribution-streak-maintainer:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2 # Checks out your repository code
+
+      - name: Install dependencies
+        run: npm install contribution-streak-maintainer # Install npm package
+
       - name: Make a contribution
         run: npx contribution-streak-maintainer ${{github.repository}} --tech.vishalkrsingh@gmail.com
         env:
-          DEVFUL_GITHUB_TOKEN: ${{ secrets.CSM_GITHUB_TOKEN }}`
+          DEVFUL_GITHUB_TOKEN: ${{ secrets.CSM_GITHUB_TOKEN }} # Use your GitHub secret token
