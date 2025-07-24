@@ -39,7 +39,7 @@ const Homepage = () => {
                 Vishal Kr. Singh
               </h2>
               <h1 className=" mt-5  sm:text-xl text-lg md:font-normal font-light ml-2 sm:text-slate-300 text-slate-400">
-                Full Stack Web & App Developer
+                MERN & TypeScript Engineer Crafting Real-time Apps
               </h1>
               <div className="flex gap-5 mt-5 ml-2 xl:justify-start justify-center">
                 <div

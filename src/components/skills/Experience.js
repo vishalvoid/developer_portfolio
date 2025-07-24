@@ -45,9 +45,7 @@ const Experience = () => {
                 </div>
                 <ul>
                   <li className="text-[10px] text-slate-500 sm:block hidden">
-                    Implemented full stack chat application which stores real
-                    time data in mongoDB database. along with realtime
-                    communication with socket.io
+                    Implemented full stack chat application which stores real-time data in MongoDB database along with real-time communication using Socket.io
                   </li>
                 </ul>
               </div>
@@ -99,8 +97,7 @@ const Experience = () => {
                 </div>
                 <ul>
                   <li className="text-[10px] text-slate-500 sm:block hidden">
-                    Created and simple but beautifull website for a NGO
-                    Jayaprakash Narayan Foundation (central govt. undertaking)
+                    Created a simple but beautiful website for NGO Jayaprakash Narayan Foundation (central government undertaking)
                   </li>
                 </ul>
               </div>

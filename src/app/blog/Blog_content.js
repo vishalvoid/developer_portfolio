@@ -105,9 +105,9 @@ const Blog_content = (params) => {
               )}
             </p>
             <Blog_content_buttons params={number} />
-            <div class="flex items-center justify-center py-4 pl-6">
+            <div className="flex items-center justify-center py-4 pl-6">
               <a href="https://instagram.com/vishal.void">
-                <div class="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
+                <div className="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
                   <div className="text-white bg-slate-300 p-2 rounded-lg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +120,7 @@ const Blog_content = (params) => {
                 </div>
               </a>
               <a href="https://twitter.com/vishal_void">
-                <div class="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
+                <div className="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
                   <div className="text-white bg-slate-300 p-2 rounded-lg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -133,7 +133,7 @@ const Blog_content = (params) => {
                 </div>
               </a>
               <a href="https://linkedin.com/in/vishalvoid">
-                <div class="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
+                <div className="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
                   <div className="text-white bg-slate-300 p-2 rounded-lg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ const Blog_content = (params) => {
                 </div>
               </a>
               <a href="https://github.com/vishalvoid">
-                <div class="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
+                <div className="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
                   <div className="text-white bg-slate-300 p-2 rounded-lg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -159,7 +159,7 @@ const Blog_content = (params) => {
                 </div>
               </a>
               <a href="https://t.me/vishalvoid">
-                <div class="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
+                <div className="group relative font-raleway font-normal cursor-pointer dark:text-white text-white pr-8 hover:text-xl py-3.5">
                   <div className="text-white bg-slate-300 p-2 rounded-lg">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

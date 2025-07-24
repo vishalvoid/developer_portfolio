@@ -49,26 +49,26 @@ const About = () => {
                 to improve my craft. I stay updated with the latest industry
                 trends and best practices by attending conferences, taking
                 online courses, and{" "}
-                <span className="font-bold">expreimenting</span> with new{" "}
+                <span className="font-bold">experimenting</span> with new{" "}
                 <span className="font-bold">technologies</span>. I build{" "}
                 <span className="font-bold">functional</span>,{" "}
                 <span className="font-bold">beautiful</span> and{" "}
-                <span className="font-bold">user-frendly</span>
+                <span className="font-bold">user-friendly</span>
                 designs. My commitment to innovation ensures that clients
                 receive
                 <span className="font-bold"> cutting-edge</span> and{" "}
-                <span className="font-bold">effective-solutions</span>.
+                <span className="font-bold">effective solutions</span>.
               </span>
             ) : (
               <span>
-                <p class="my-1 w-full">I work hard and play hard</p>
-                <p class="my-1 w-full">I play games and watch series</p>
-                <p class="my-1 w-full">I love reading books</p>
-                <p class="my-1 w-full">I am always improving myself</p>
-                <p class="my-1 w-full">I am always learning and updating</p>
-                <p class="my-1 w-full">looking to meet new people</p>
-                <p class="my-1 w-full">open source contributions</p>
-                <p class="my-1 w-full">open source contributions</p>
+                <p className="my-1 w-full">I work hard and play hard</p>
+                <p className="my-1 w-full">I play games and watch series</p>
+                <p className="my-1 w-full">I love reading books</p>
+                <p className="my-1 w-full">I am always improving myself</p>
+                <p className="my-1 w-full">I am always learning and updating</p>
+                <p className="my-1 w-full">looking to meet new people</p>
+                <p className="my-1 w-full">open source contributions</p>
+                <p className="my-1 w-full">open source contributions</p>
               </span>
             )}
 

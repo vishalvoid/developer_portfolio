@@ -20,7 +20,7 @@ const Skills_3 = () => {
             </h1>
             <div className="flex flex-wrap items-center h-full pb-8 sm:py-0 py-8 ">
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     viewBox="175.7 78 490.6 436.9"
                     xmlns="http://www.w3.org/2000/svg"
@@ -31,13 +31,13 @@ const Skills_3 = () => {
                       <circle cx="420.9" cy="296.5" r="45.7" />
                     </g>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-6 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-6 px-3 pointer-events-none">
                     React
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     viewBox=".5 -.2 1023 1024.1"
                     xmlns="http://www.w3.org/2000/svg"
@@ -46,14 +46,14 @@ const Skills_3 = () => {
                     <path d="m478.5.6c-2.2.2-9.2.9-15.5 1.4-145.3 13.1-281.4 91.5-367.6 212-48 67-78.7 143-90.3 223.5-4.1 28.1-4.6 36.4-4.6 74.5s.5 46.4 4.6 74.5c27.8 192.1 164.5 353.5 349.9 413.3 33.2 10.7 68.2 18 108 22.4 15.5 1.7 82.5 1.7 98 0 68.7-7.6 126.9-24.6 184.3-53.9 8.8-4.5 10.5-5.7 9.3-6.7-.8-.6-38.3-50.9-83.3-111.7l-81.8-110.5-102.5-151.7c-56.4-83.4-102.8-151.6-103.2-151.6-.4-.1-.8 67.3-1 149.6-.3 144.1-.4 149.9-2.2 153.3-2.6 4.9-4.6 6.9-8.8 9.1-3.2 1.6-6 1.9-21.1 1.9h-17.3l-4.6-2.9c-3-1.9-5.2-4.4-6.7-7.3l-2.1-4.5.2-200.5.3-200.6 3.1-3.9c1.6-2.1 5-4.8 7.4-6.1 4.1-2 5.7-2.2 23-2.2 20.4 0 23.8.8 29.1 6.6 1.5 1.6 57 85.2 123.4 185.9s157.2 238.2 201.8 305.7l81 122.7 4.1-2.7c36.3-23.6 74.7-57.2 105.1-92.2 64.7-74.3 106.4-164.9 120.4-261.5 4.1-28.1 4.6-36.4 4.6-74.5s-.5-46.4-4.6-74.5c-27.8-192.1-164.5-353.5-349.9-413.3-32.7-10.6-67.5-17.9-106.5-22.3-9.6-1-75.7-2.1-84-1.3zm209.4 309.4c4.8 2.4 8.7 7 10.1 11.8.8 2.6 1 58.2.8 183.5l-.3 179.8-31.7-48.6-31.8-48.6v-130.7c0-84.5.4-132 1-134.3 1.6-5.6 5.1-10 9.9-12.6 4.1-2.1 5.6-2.3 21.3-2.3 14.8 0 17.4.2 20.7 2z" />
                     <path d="m784.3 945.1c-3.5 2.2-4.6 3.7-1.5 2 2.2-1.3 5.8-4 5.2-4.1-.3 0-2 1-3.7 2.1zm-6.9 4.5c-1.8 1.4-1.8 1.5.4.4 1.2-.6 2.2-1.3 2.2-1.5 0-.8-.5-.6-2.6 1.1zm-5 3c-1.8 1.4-1.8 1.5.4.4 1.2-.6 2.2-1.3 2.2-1.5 0-.8-.5-.6-2.6 1.1zm-5 3c-1.8 1.4-1.8 1.5.4.4 1.2-.6 2.2-1.3 2.2-1.5 0-.8-.5-.6-2.6 1.1zm-7.6 4c-3.8 2-3.6 2.8.2.9 1.7-.9 3-1.8 3-2 0-.7-.1-.6-3.2 1.1z" />
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-6 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-6 px-3 pointer-events-none">
                     Next
                   </h2>
                 </div>
               </div>
 
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     viewBox="0 0 256 282"
                     xmlns="http://www.w3.org/2000/svg"
@@ -65,13 +65,13 @@ const Skills_3 = () => {
                       <path d="M146.928 85.99c15.21-.979 31.493-.58 45.18 6.913 10.597 5.742 16.472 17.793 16.659 29.566-.296 1.588-1.956 2.464-3.472 2.355-4.413-.006-8.827.06-13.24-.03-1.872.072-2.96-1.654-3.195-3.309-1.268-5.633-4.34-11.212-9.642-13.929-8.139-4.075-17.576-3.87-26.451-3.785-6.479.344-13.446.905-18.935 4.715-4.214 2.886-5.494 8.712-3.99 13.404 1.418 3.369 5.307 4.456 8.489 5.458 18.33 4.794 37.754 4.317 55.734 10.626 7.444 2.572 14.726 7.572 17.274 15.366 3.333 10.446 1.872 22.932-5.56 31.318-6.027 6.901-14.805 10.657-23.56 12.697-11.647 2.597-23.734 2.663-35.562 1.51-11.122-1.268-22.696-4.19-31.282-11.768-7.342-6.375-10.928-16.308-10.572-25.895.085-1.619 1.697-2.748 3.248-2.615 4.444-.036 8.888-.048 13.332.006 1.775-.127 3.091 1.407 3.182 3.08.82 5.367 2.837 11 7.517 14.182 9.032 5.827 20.365 5.428 30.707 5.591 8.568-.38 18.186-.495 25.178-6.158 3.689-3.23 4.782-8.634 3.785-13.283-1.08-3.925-5.186-5.754-8.712-6.95-18.095-5.724-37.736-3.647-55.656-10.12-7.275-2.571-14.31-7.432-17.105-14.906-3.9-10.578-2.113-23.662 6.098-31.765 8.006-8.06 19.563-11.164 30.551-12.275z" />
                     </g>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-10 ml-3 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-10 ml-3 px-3 pointer-events-none">
                     NodeJS
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 128 128"
@@ -80,13 +80,13 @@ const Skills_3 = () => {
                   >
                     <path d="M126.67 98.44c-4.56 1.16-7.38.05-9.91-3.75-5.68-8.51-11.95-16.63-18-24.9-.78-1.07-1.59-2.12-2.6-3.45C89 76 81.85 85.2 75.14 94.77c-2.4 3.42-4.92 4.91-9.4 3.7L92.66 62.34 67.6 29.71c4.31-.84 7.29-.41 9.93 3.45 5.83 8.52 12.26 16.63 18.67 25.21C102.65 49.82 109 41.7 115 33.26c2.41-3.42 5-4.72 9.33-3.46-3.28 4.35-6.49 8.63-9.72 12.88-4.36 5.73-8.64 11.53-13.16 17.14-1.61 2-1.35 3.3.09 5.19C109.9 76 118.16 87.1 126.67 98.44zM1.33 61.74c.72-3.61 1.2-7.29 2.2-10.83 6-21.43 30.6-30.34 47.5-17.06C60.93 41.64 63.39 52.62 62.9 65H7.1c-.84 22.21 15.15 35.62 35.53 28.78 7.15-2.4 11.36-8 13.47-15 1.07-3.51 2.84-4.06 6.14-3.06-1.69 8.76-5.52 16.08-13.52 20.66-12 6.86-29.13 4.64-38.14-4.89C5.26 85.89 3 78.92 2 71.39c-.15-1.2-.46-2.38-.7-3.57Q1.33 64.78 1.33 61.74zM7.2 60.25H57.63c-.33-16.06-10.33-27.47-24-27.57C18.63 32.56 7.85 43.7 7.2 60.25z"></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-10 ml-4 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-10 ml-4 px-3 pointer-events-none">
                     Express
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -109,13 +109,13 @@ const Skills_3 = () => {
                       d="M11.58 21.054s-5.252-3.584-4.94-9.896c.296-6.312 4.005-9.413 4.722-9.974.468-.498.483-.685.514-1.184.327.701.265 10.488.312 11.641.14 4.442-.249 8.572-.608 9.413z"
                     ></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-8 ml-3 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-8 ml-3 px-3 pointer-events-none">
                     MongoDB
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="sm:h-12 sm:w-12 h-10 w-10 fill-gray-400 hover:fill-gray-200"
@@ -127,13 +127,13 @@ const Skills_3 = () => {
                       fill="#323330"
                     />
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-8 ml-3 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-8 ml-3 px-3 pointer-events-none">
                     Javascript
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 124 141.53"
@@ -146,13 +146,13 @@ const Skills_3 = () => {
                       fill="#404040"
                     />
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-12 ml-6 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-12 ml-6 px-3 pointer-events-none">
                     CSS
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     fill="none"
                     className="sm:h-12 sm:w-12 h-10 w-10 fill-gray-400 hover:fill-gray-200"
@@ -166,13 +166,13 @@ const Skills_3 = () => {
                       fill="#404040"
                     />
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-12 ml-6 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-12 ml-6 px-3 pointer-events-none">
                     HTML
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     className="sm:h-12 sm:w-12 h-10 w-10 fill-gray-400 hover:fill-gray-200"
                     viewBox="0 0 256 256"
@@ -185,13 +185,13 @@ const Skills_3 = () => {
                       fill="#404040"
                     />
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-8 ml-3 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-8 ml-3 px-3 pointer-events-none">
                     Bootstrap
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     className="sm:h-12 sm:w-12 h-10 w-10 fill-gray-400 hover:fill-gray-200"
                     viewBox=".15 .13 799.7 479.69"
@@ -199,13 +199,13 @@ const Skills_3 = () => {
                   >
                     <path d="m400 .13c-106.63 0-173.27 53.3-199.93 159.89 39.99-53.3 86.64-73.28 139.95-59.96 30.42 7.6 52.16 29.67 76.23 54.09 39.2 39.78 84.57 85.82 183.68 85.82 106.62 0 173.27-53.3 199.92-159.9-39.98 53.3-86.63 73.29-139.95 59.97-30.41-7.6-52.15-29.67-76.22-54.09-39.2-39.78-84.58-85.82-183.68-85.82zm-199.93 239.84c-106.62 0-173.27 53.3-199.92 159.9 39.98-53.3 86.63-73.29 139.95-59.96 30.41 7.61 52.15 29.67 76.22 54.08 39.2 39.78 84.58 85.83 183.68 85.83 106.63 0 173.27-53.3 199.93-159.9-39.99 53.3-86.64 73.29-139.95 59.96-30.42-7.59-52.16-29.67-76.23-54.08-39.2-39.78-84.57-85.83-183.68-85.83z" />
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-10 ml-3 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-10 ml-3 px-3 pointer-events-none">
                     Tailwind
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     enable-background="new 0 0 24 24"
@@ -216,13 +216,13 @@ const Skills_3 = () => {
                     <polygon points="14.329 11.072 14.328 11.073 7.857 17.53 14.327 24 21.7 24 15.24 17.531 21.7 11.072"></polygon>
                     <polygon points="6 15.7 21.684 .012 14.327 .012 14.314 0 2.3 12"></polygon>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-12 ml-4 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-12 ml-4 px-3 pointer-events-none">
                     Flutter
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 128 128"
@@ -231,13 +231,13 @@ const Skills_3 = () => {
                   >
                     <path d="M116.948 97.807c-6.863-.187-12.104.452-16.585 2.341-1.273.537-3.305.552-3.513 2.147.7.733.809 1.829 1.365 2.731 1.07 1.73 2.876 4.052 4.488 5.268 1.762 1.33 3.577 2.751 5.465 3.902 3.358 2.047 7.107 3.217 10.34 5.268 1.906 1.21 3.799 2.733 5.658 4.097.92.675 1.537 1.724 2.732 2.147v-.194c-.628-.8-.79-1.898-1.366-2.733l-2.537-2.537c-2.48-3.292-5.629-6.184-8.976-8.585-2.669-1.916-8.642-4.504-9.755-7.609l-.195-.195c1.892-.214 4.107-.898 5.854-1.367 2.934-.786 5.556-.583 8.585-1.365l4.097-1.171v-.78c-1.531-1.571-2.623-3.651-4.292-5.073-4.37-3.72-9.138-7.437-14.048-10.537-2.724-1.718-6.089-2.835-8.976-4.292-.971-.491-2.677-.746-3.318-1.562-1.517-1.932-2.342-4.382-3.511-6.633-2.449-4.717-4.854-9.868-7.024-14.831-1.48-3.384-2.447-6.72-4.293-9.756-8.86-14.567-18.396-23.358-33.169-32-3.144-1.838-6.929-2.563-10.929-3.513-2.145-.129-4.292-.26-6.438-.391-1.311-.546-2.673-2.149-3.902-2.927-4.894-3.092-17.448-9.817-21.072-.975-2.289 5.581 3.421 11.025 5.462 13.854 1.434 1.982 3.269 4.207 4.293 6.438.674 1.467.79 2.938 1.367 4.489 1.417 3.822 2.652 7.98 4.487 11.511.927 1.788 1.949 3.67 3.122 5.268.718.981 1.951 1.413 2.145 2.927-1.204 1.686-1.273 4.304-1.95 6.44-3.05 9.615-1.899 21.567 2.537 28.683 1.36 2.186 4.567 6.871 8.975 5.073 3.856-1.57 2.995-6.438 4.098-10.732.249-.973.096-1.689.585-2.341v.195l3.513 7.024c2.6 4.187 7.212 8.562 11.122 11.514 2.027 1.531 3.623 4.177 6.244 5.073v-.196h-.195c-.508-.791-1.303-1.119-1.951-1.755-1.527-1.497-3.225-3.358-4.487-5.073-3.556-4.827-6.698-10.11-9.561-15.609-1.368-2.627-2.557-5.523-3.709-8.196-.444-1.03-.438-2.589-1.364-3.122-1.263 1.958-3.122 3.542-4.098 5.854-1.561 3.696-1.762 8.204-2.341 12.878-.342.122-.19.038-.391.194-2.718-.655-3.672-3.452-4.683-5.853-2.554-6.07-3.029-15.842-.781-22.829.582-1.809 3.21-7.501 2.146-9.172-.508-1.666-2.184-2.63-3.121-3.903-1.161-1.574-2.319-3.646-3.124-5.464-2.09-4.731-3.066-10.044-5.267-14.828-1.053-2.287-2.832-4.602-4.293-6.634-1.617-2.253-3.429-3.912-4.683-6.635-.446-.968-1.051-2.518-.391-3.513.21-.671.508-.951 1.171-1.17 1.132-.873 4.284.29 5.462.779 3.129 1.3 5.741 2.538 8.392 4.294 1.271.844 2.559 2.475 4.097 2.927h1.756c2.747.631 5.824.195 8.391.975 4.536 1.378 8.601 3.523 12.292 5.854 11.246 7.102 20.442 17.21 26.732 29.269 1.012 1.942 1.45 3.794 2.341 5.854 1.798 4.153 4.063 8.426 5.852 12.488 1.786 4.052 3.526 8.141 6.05 11.513 1.327 1.772 6.451 2.723 8.781 3.708 1.632.689 4.307 1.409 5.854 2.34 2.953 1.782 5.815 3.903 8.586 5.855 1.383.975 5.64 3.116 5.852 4.879zM29.729 23.466c-1.431-.027-2.443.156-3.513.389v.195h.195c.683 1.402 1.888 2.306 2.731 3.513.65 1.367 1.301 2.732 1.952 4.097l.194-.193c1.209-.853 1.762-2.214 1.755-4.294-.484-.509-.555-1.147-.975-1.755-.556-.811-1.635-1.272-2.339-1.952z"></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-4 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-4 px-3 pointer-events-none">
                     mySQL
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="sm:h-12 sm:w-12 h-10 w-10 fill-gray-400 hover:fill-gray-200"
@@ -247,7 +247,7 @@ const Skills_3 = () => {
                   >
                     <path d="M29.47 29.34a2 2 0 0 0-.22-4h-.07a2 2 0 0 0-1.95 2.09 2.1 2.1 0 0 0 .58 1.34 12.93 12.93 0 0 1-5.92 5.66A9.76 9.76 0 0 1 16 35.51a5 5 0 0 1-3.68-2.13 5.31 5.31 0 0 1-.32-5.59 8.58 8.58 0 0 1 2.5-2.89 18.21 18.21 0 0 1-.5-1.84C8.8 26.85 9.34 32 10.92 34.39a7.5 7.5 0 0 0 6.28 2.92 8.93 8.93 0 0 0 2.17-.25 13.85 13.85 0 0 0 10.1-7.72Zm6.35-4.47a14.62 14.62 0 0 0-11.4-5h-.58a2 2 0 0 0-1.77-1.09H22a2 2 0 0 0 .07 4.05h.07a2 2 0 0 0 1.77-1.23h.65a13.79 13.79 0 0 1 7.69 2.4 9.7 9.7 0 0 1 3.82 4.62 5 5 0 0 1-.07 4.22 5.3 5.3 0 0 1-4.94 3 9.3 9.3 0 0 1-3.54-.84c-.4.36-1.12.94-1.62 1.3a11.16 11.16 0 0 0 4.65 1.12 7.82 7.82 0 0 0 7-3.83c1.05-2.05.97-5.66-1.73-8.72ZM17.49 30a2 2 0 0 0 2 1.95h.07a2 2 0 0 0-.07-4h-.07a.55.55 0 0 0-.25 0 13.22 13.22 0 0 1-1.88-8 9.7 9.7 0 0 1 2.13-5.6 6.31 6.31 0 0 1 4.44-2c3.82-.07 5.44 4.69 5.55 6.61.47.1 1.27.36 1.81.54-.44-5.85-4-8.88-7.51-8.88a8.17 8.17 0 0 0-7.43 5.81 14.77 14.77 0 0 0 1.44 12.56 1.59 1.59 0 0 0-.23 1.01Z"></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-6 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-6 px-3 pointer-events-none">
                     redux
                   </h2>
                 </div>
@@ -261,7 +261,7 @@ const Skills_3 = () => {
             </h1>
             <div className="flex items-center h-full pb-8 ">
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     className="sm:h-12 sm:w-12 h-10 w-10 fill-gray-400 hover:fill-gray-200"
                     xmlns="http://www.w3.org/2000/svg"
@@ -273,13 +273,13 @@ const Skills_3 = () => {
                     <path d="M.106 14.677c3.13 2.855 7.272 4.573 11.87 4.573 3.28 0 7.096-1.04 9.722-3 .431-.323.056-.815-.383-.613-2.946 1.258-6.146 1.871-9.06 1.871-4.318 0-8.493-1.202-11.877-3.186C.082 14.145-.141 14.452.106 14.677zM17.181 5.16c0-.136-.073-.202-.2-.202H16.24c-.011-.001-.023-.001-.034-.001-.104 0-.2.03-.279.082-.056.048-.112.154-.16.315l-1.381 5.403-1.261-5.403c-.031-.154-.088-.267-.151-.315-.064-.056-.168-.081-.32-.081h-.636c-.012-.001-.023-.001-.035-.001-.106 0-.205.03-.287.082-.063.048-.111.154-.151.315L10.3 10.693 8.958 5.354c-.047-.154-.095-.267-.16-.315-.055-.056-.159-.081-.31-.081H7.705c-.127 0-.191.073-.191.202l.001.006C7.527 5.28 7.552 5.39 7.586 5.484l1.875 6.235c.048.153.104.266.168.314.064.057.16.081.304.081l.686-.001c.143 0 .255-.024.32-.081.063-.057.11-.162.15-.323l1.23-5.193 1.238 5.201c.031.162.087.267.15.323.065.057.169.081.32.081h.686c.01.001.019.001.029.001.102 0 .197-.03.275-.082.064-.048.12-.153.168-.314l1.923-6.234L17.105 5.5c.025-.066.045-.133.059-.21C17.172 5.241 17.181 5.201 17.181 5.16zM21.682 10.202c0 .008 0 .014 0 .022 0 .314-.164.589-.415.744-.271.178-.663.267-1.165.267-.32 0-.631-.032-.95-.097-.312-.065-.607-.161-.878-.282-.08-.032-.152-.065-.2-.081-.048-.016-.096-.024-.144-.024-.119 0-.183.081-.183.25v.411c.001.082.018.16.048.226.032.073.119.154.247.225.208.121.519.226.918.323.399.096.813.144 1.228.144.408 0 .782-.057 1.141-.169.343-.105.638-.25.886-.452.247-.194.439-.435.583-.71.135-.274.207-.589.207-.936 0-.419-.12-.798-.367-1.129-.247-.33-.663-.589-1.237-.775l-1.134-.362c-.423-.137-.718-.291-.877-.445-.16-.153-.24-.347-.24-.573 0-.33.128-.564.375-.717.247-.154.607-.225 1.062-.225.018 0 .037 0 .056 0 .534 0 1.042.115 1.476.314l-.004-.002c.092.052.194.086.307.099.12 0 .184-.089.184-.259V5.614c.001-.008.001-.017.001-.026 0-.09-.027-.173-.072-.24l-.001-.002c-.063-.082-.143-.151-.239-.2C22.216 5.096 22.104 5.048 21.96 5c-.143-.047-.295-.088-.455-.128-.168-.032-.335-.065-.518-.089-.176-.024-.36-.032-.535-.032-.351 0-.686.041-1.006.137-.32.096-.59.233-.83.419-.24.177-.431.403-.575.661-.143.259-.216.557-.216.895.002.443.152.851.4 1.17.263.363.694.637 1.277.821l1.157.364c.391.129.663.267.807.419.134.14.216.332.216.543 0 .008 0 .014 0 .021C21.682 10.201 21.682 10.201 21.682 10.202z"></path>
                     <path d="M22.424 18.169c1.405-1.193 1.772-3.685 1.485-4.048-.287-.355-2.754-.661-4.254.403-.232.17-.192.396.063.364.854-.105 2.738-.33 3.074.104.335.428-.375 2.227-.695 3.025C22.001 18.258 22.209 18.355 22.424 18.169zM4.52 7.944c-.295-.04-.574-.065-.846-.065-.822 0-1.468.21-1.955.629-.487.418-.726.976-.726 1.661 0 .646.199 1.162.59 1.549.391.387.926.58 1.596.58.942 0 1.725-.371 2.347-1.112l.016.037c.076.16.159.315.232.438l.006.01c.083.132.177.257.281.369C6.14 12.113 6.22 12.154 6.3 12.154h.001c.077-.003.149-.03.207-.073l.503-.338c.104-.081.152-.162.152-.242 0-.057-.016-.121-.056-.185-.112-.21-.192-.404-.256-.582-.056-.177-.088-.418-.088-.717l-.016.001V7.404c0-.887-.223-1.549-.662-1.983C5.638 4.985 4.944 4.767 3.994 4.767c-.015 0-.031 0-.046 0-.426 0-.84.056-1.2.153C2.357 5.017 2.022 5.138 1.743 5.283L1.739 5.284c-.085.037-.16.095-.22.167-.04.057-.056.154-.056.283v.395c0 .169.056.25.168.25h.001c.045-.002.088-.01.126-.023l.016-.004C1.87 6.321 1.963 6.286 2.038 6.25 2.317 6.137 2.605 6.048 2.9 5.975c.295-.073.583-.104.863-.104.614 0 1.045.12 1.3.371.248.25.375.677.375 1.29v.589C5.12 8.049 4.815 7.984 4.52 7.944zM5.455 9.025v.338c0 .274-.033.508-.08.701-.048.194-.144.364-.272.517C4.888 10.823 4.632 11 4.345 11.097c-.288.097-.559.145-.822.145-.368 0-.647-.097-.838-.299-.2-.193-.295-.476-.295-.855 0-.403.127-.709.39-.926.264-.218.655-.323 1.19-.323.265 0 .525.018.75.048l.034.004C5.008 8.925 5.257 8.973 5.455 9.025z"></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-6 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-6 px-3 pointer-events-none">
                     AWS
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -288,14 +288,14 @@ const Skills_3 = () => {
                   >
                     <path d="M19.7 17.6c-.1-.2-.2-.4-.2-.6 0-.4-.2-.7-.5-1-.1-.1-.3-.2-.4-.2.6-1.8-.3-3.6-1.3-4.9-.8-1.2-2-2.1-1.9-3.7 0-1.9.2-5.4-3.3-5.1-3.6.2-2.6 3.9-2.7 5.2 0 1.1-.5 2.2-1.3 3.1-.2.2-.4.5-.5.7-1 1.2-1.5 2.8-1.5 4.3-.2.2-.4.4-.5.6-.1.1-.2.2-.2.3-.1.1-.3.2-.5.3-.4.1-.7.3-.9.7-.1.3-.2.7-.1 1.1.1.2.1.4 0 .7-.2.4-.2.9 0 1.4.3.4.8.5 1.5.6.5 0 1.1.2 1.6.4.5.3 1.1.5 1.7.5.3 0 .7-.1 1-.2.3-.2.5-.4.6-.7.4 0 1-.2 1.7-.2.6 0 1.2.2 2 .1 0 .1 0 .2.1.3.2.5.7.9 1.3 1h.2c.8-.1 1.6-.5 2.1-1.1.4-.4.9-.7 1.4-.9.6-.3 1-.5 1.1-1 .1-.7-.1-1.1-.5-1.7zM12.8 4.8c.6.1 1.1.6 1 1.2 0 .3-.1.6-.3.9h-.1c-.2-.1-.3-.1-.4-.2.1-.1.1-.3.2-.5 0-.4-.2-.7-.4-.7-.3 0-.5.3-.5.7v.1c-.1-.1-.3-.1-.4-.2V6c-.1-.5.3-1.1.9-1.2zm-.3 2c.1.1.3.2.4.2.1 0 .3.1.4.2.2.1.4.2.4.5s-.3.6-.9.8c-.2.1-.3.1-.4.2-.3.2-.6.3-1 .3-.3 0-.6-.2-.8-.4-.1-.1-.2-.2-.4-.3-.1-.1-.3-.3-.4-.6 0-.1.1-.2.2-.3.3-.2.4-.3.5-.4l.1-.1c.2-.3.6-.5 1-.5.3.1.6.2.9.4zM10.4 5c.4 0 .7.4.8 1.1v.2c-.1 0-.3.1-.4.2v-.2c0-.3-.2-.6-.4-.5-.2 0-.3.3-.3.6 0 .2.1.3.2.4 0 0-.1.1-.2.1-.2-.2-.4-.5-.4-.8 0-.6.3-1.1.7-1.1zm-1 16.1c-.7.3-1.6.2-2.2-.2-.6-.3-1.1-.4-1.8-.4-.5-.1-1-.1-1.1-.3-.1-.2-.1-.5.1-1 .1-.3.1-.6 0-.9-.1-.3-.1-.5 0-.8.1-.3.3-.4.6-.5.3-.1.5-.2.7-.4.1-.1.2-.2.3-.4.3-.4.5-.6.8-.6.6.1 1.1 1 1.5 1.9.2.3.4.7.7 1 .4.5.9 1.2.9 1.6 0 .5-.2.8-.5 1zm4.9-2.2c0 .1 0 .1-.1.2-1.2.9-2.8 1-4.1.3l-.6-.9c.9-.1.7-1.3-1.2-2.5-2-1.3-.6-3.7.1-4.8.1-.1.1 0-.3.8-.3.6-.9 2.1-.1 3.2 0-.8.2-1.6.5-2.4.7-1.3 1.2-2.8 1.5-4.3.1.1.1.1.2.1.1.1.2.2.3.2.2.3.6.4.9.4h.1c.4 0 .8-.1 1.1-.4.1-.1.2-.2.4-.2.3-.1.6-.3.9-.6.4 1.3.8 2.5 1.4 3.6.4.8.7 1.6.9 2.5.3 0 .7.1 1 .3.8.4 1.1.7 1 1.2H18c0-.3-.2-.6-.9-.9-.7-.3-1.3-.3-1.5.4-.1 0-.2.1-.3.1-.8.4-.8 1.5-.9 2.6.1.4 0 .7-.1 1.1zm4.6.6c-.6.2-1.1.6-1.5 1.1-.4.6-1.1 1-1.9.9-.4 0-.8-.3-.9-.7-.1-.6-.1-1.2.2-1.8.1-.4.2-.7.3-1.1.1-1.2.1-1.9.6-2.2 0 .5.3.8.7 1 .5 0 1-.1 1.4-.5h.2c.3 0 .5 0 .7.2.2.2.3.5.3.7 0 .3.2.6.3.9.5.5.5.8.5.9-.1.2-.5.4-.9.6zm-9-12c-.1 0-.1 0-.1.1 0 0 0 .1.1.1s.1.1.1.1c.3.4.8.6 1.4.7.5-.1 1-.2 1.5-.6l.6-.3c.1 0 .1-.1.1-.1 0-.1 0-.1-.1-.1-.2.1-.5.2-.7.3-.4.3-.9.5-1.4.5-.5 0-.9-.3-1.2-.6-.1 0-.2-.1-.3-.1z"></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-6 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-6 px-3 pointer-events-none">
                     Linux
                   </h2>
                 </div>
               </div>
 
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -304,13 +304,13 @@ const Skills_3 = () => {
                   >
                     <path d="M23.77 11.08a5.12 5.12 0 0 0-2.41-.77 2.7 2.7 0 0 0-.44 0 4.24 4.24 0 0 0-1.64-2.26.5.5 0 0 0-.64.07 4.06 4.06 0 0 0-.72 3.28.52.52 0 0 1-.13.41.45.45 0 0 1-.34.15H17V9.5a.5.5 0 0 0-.5-.5H14V3.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V6H4.5a.5.5 0 0 0-.5.5V9H1.5a.5.5 0 0 0-.5.5V12H.5a.5.5 0 0 0-.5.5C0 20.17 5.59 21 8 21a14.29 14.29 0 0 0 12.38-7.08 5.13 5.13 0 0 0 3.55-2.17.5.5 0 0 0-.16-.67ZM16 12h-2v-2h2ZM5 12v-2h2v2Zm3 0v-2h2v2Zm5-5v2h-2V7Zm-2 5v-2h2v2Zm0-8h2v2h-2Zm-1 5H8V7h2ZM5 7h2v2H5Zm-3 3h2v2H2Zm3 7a1 1 0 1 1 1-1 1 1 0 0 1-1 1Z"></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-10 ml-4 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-10 ml-4 px-3 pointer-events-none">
                     Docker
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="sm:h-12 sm:w-12 h-10 w-10 fill-gray-400 hover:fill-gray-200"
@@ -323,13 +323,13 @@ const Skills_3 = () => {
                     <path d="M76.491 1.587s12.968 12.976-12.303 32.923c-20.266 16.006-4.621 25.13-.007 35.559-11.831-10.673-20.509-20.07-14.688-28.815 8.548-12.834 32.229-19.059 26.998-39.667z"></path>
                     <path d="M52.214 126.021c22.476 1.437 57-.8 57.817-11.436 0 0-1.571 4.032-18.577 7.231-19.186 3.612-42.854 3.191-56.887.874 0 .001 2.875 2.381 17.647 3.331z"></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-12 ml-6 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-12 ml-6 px-3 pointer-events-none">
                     Java
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 32 32"
@@ -338,7 +338,7 @@ const Skills_3 = () => {
                   >
                     <path d="M23.116 23.609c-.009.014-.025.016-.039.02-.056.07-.142.089-.218.122-.816.358-1.63.722-2.444 1.084-.068.03-.129.021-.195-.001-.421-.142-.838-.293-1.257-.441l-1.532-.541c-1.025-.361-2.05-.722-3.074-1.085-.615-.218-1.232-.433-1.847-.65-.913-.323-1.829-.641-2.741-.968-.145-.052-.299-.082-.43-.168l-.021-.019a.358.358 0 0 1-.051-.141 3.865 3.865 0 0 1-.084-.751c-.044-3.38-.005-6.759-.019-10.139 0-.055.009-.107.018-.16 0-.011.006-.017.015-.021a.023.023 0 0 1 .026-.004c.052.027.087.074.127.114l13.611 13.61c.043.043.082.09.137.119a.076.076 0 0 1 .019.021zm.004-.091a.06.06 0 0 1-.054-.02l-.064-.064L9.338 9.77c-.033-.033-.071-.063-.096-.104a.177.177 0 0 1 .113-.035l.111-.001c3.307 0 6.613-.001 9.92.001.296 0 .591.02.882.084.059.013.119.025.166.067l.022.016c.086.139.121.299.175.45.433 1.232.871 2.462 1.302 3.694.278.794.56 1.587.84 2.38.454 1.285.909 2.57 1.36 3.856.058.165.111.332.177.494a.284.284 0 0 1-.013.233c-.305.678-.604 1.359-.905 2.039-.071.16-.141.321-.214.48-.015.033-.029.068-.058.093zM8.986 21.106c.069.002.127.038.189.06l.883.308 1.804.637 1.597.559c.354.124.707.251 1.06.375l1.874.659 1.02.361 1.904.67c.35.123.7.247 1.05.374a.218.218 0 0 0 .18-.01c.28-.128.564-.249.846-.374.212-.093.422-.189.634-.283l1.029-.453.269-.118-.507 1.572-.304.952-.204.642c-.03.096-.03.098-.131.098l-1.359-.001c-1.279-.001-2.557.009-3.835-.005-.983-.011-1.966-.003-2.949-.009a.187.187 0 0 1-.148-.061c-.067-.072-.139-.139-.209-.209l-3.108-3.09c-.117-.116-.233-.234-.351-.349-.285-.277-.501-.605-.691-.95-.23-.42-.413-.86-.538-1.323-.003-.01-.003-.021-.004-.031zm14.357 2.739c.014-.107.078-.194.118-.29.099-.239.207-.475.312-.712l.274-.614.377-.855c.043-.096.085-.192.132-.286a.197.197 0 0 0 .014-.171c-.147-.408-.293-.817-.437-1.227-.075-.211-.146-.424-.22-.635l-.532-1.516-.361-1.02-.523-1.486-.358-1.01-.55-1.566-.361-1.02c-.175-.495-.347-.991-.524-1.485-.051-.142-.107-.281-.141-.428.214.043.418.118.621.197.509.2.988.455 1.417.797.195.156.365.34.541.516.256.255.509.514.765.77.821.823 1.641 1.647 2.463 2.469a.221.221 0 0 1 .072.174c-.002 1.826-.002 3.653-.003 5.479l-.003 2.824v.032c-.001.085.016.085-.084.117l-.481.153-2.435.778c-.023.007-.047.012-.071.018l-.023-.005zM20.603 9.57c-.124-.023-.247-.047-.371-.069a2.683 2.683 0 0 0-.323-.037c-.709-.039-1.418-.018-2.127-.019-2.912-.002-5.823-.001-8.735 0a2.65 2.65 0 0 0-.126.004L8.9 9.445c.183-.136.377-.256.567-.382.491-.327.984-.651 1.476-.977l3.074-2.036c.524-.347 1.05-.691 1.573-1.04.093-.062.177-.137.287-.173.226-.076.45-.056.673.009.31.089.578.252.816.467.088.08.171.167.256.251.778.772 1.556 1.545 2.335 2.316.059.058.1.121.127.2.167.484.34.967.51 1.45.005.013.007.027.01.041zM8.884 9.468c.029.042.015.089.015.133L8.9 19.84c0 .214.019.427.026.64.006.191.046.381.091.567.008.032.027.065.009.1l-.756-.261c-.255-.089-.509-.18-.765-.268a.37.37 0 0 1-.148-.095c-.843-.852-1.688-1.701-2.53-2.553a1.996 1.996 0 0 1-.556-.999 1.04 1.04 0 0 1 .009-.511.665.665 0 0 1 .097-.209c.303-.423.58-.863.867-1.295 1.113-1.677 2.222-3.356 3.333-5.034l.305-.455z"></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-10 ml-3 px-4 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-10 ml-3 px-4 pointer-events-none">
                     Dart
                   </h2>
                 </div>
@@ -352,7 +352,7 @@ const Skills_3 = () => {
             </h1>
             <div className="flex items-center h-full pb-8 ">
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 128 128"
@@ -361,13 +361,13 @@ const Skills_3 = () => {
                   >
                     <path d="M124.742 58.378l-55.117-55.114c-3.172-3.174-8.32-3.174-11.497 0l-11.443 11.446 14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314 2.703 2.706 3.462 6.607 2.293 9.993l13.992 13.994c3.385-1.167 7.292-.413 9.994 2.295 3.78 3.777 3.78 9.9 0 13.679-3.78 3.78-9.901 3.78-13.683 0-2.842-2.844-3.545-7.019-2.105-10.521l-13.048-13.049-.002 34.341c.922.455 1.791 1.063 2.559 1.828 3.779 3.777 3.779 9.898 0 13.683-3.779 3.777-9.904 3.777-13.679 0-3.778-3.784-4.088-9.905-.311-13.683.934-.933 1.855-1.638 2.855-2.11v-34.659c-1-.472-1.92-1.172-2.856-2.111-2.861-2.86-3.396-7.06-1.928-10.576l-14.233-14.313-37.754 37.79c-3.175 3.177-3.155 8.325.02 11.5l55.126 55.114c3.173 3.174 8.325 3.174 11.503 0l54.86-54.858c3.175-3.176 3.178-8.327.004-11.501z"></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-14 ml-8 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-14 ml-8 px-3 pointer-events-none">
                     Git
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 16 16"
@@ -376,13 +376,13 @@ const Skills_3 = () => {
                   >
                     <path d="M7.999 0C3.582 0 0 3.596 0 8.032a8.031 8.031 0 0 0 5.472 7.621c.4.074.546-.174.546-.387 0-.191-.007-.696-.011-1.366-2.225.485-2.695-1.077-2.695-1.077-.363-.928-.888-1.175-.888-1.175-.727-.498.054-.488.054-.488.803.057 1.225.828 1.225.828.714 1.227 1.873.873 2.329.667.072-.519.279-.873.508-1.074-1.776-.203-3.644-.892-3.644-3.969 0-.877.312-1.594.824-2.156-.083-.203-.357-1.02.078-2.125 0 0 .672-.216 2.2.823a7.633 7.633 0 0 1 2.003-.27 7.65 7.65 0 0 1 2.003.271c1.527-1.039 2.198-.823 2.198-.823.436 1.106.162 1.922.08 2.125.513.562.822 1.279.822 2.156 0 3.085-1.87 3.764-3.652 3.963.287.248.543.738.543 1.487 0 1.074-.01 1.94-.01 2.203 0 .215.144.465.55.386A8.032 8.032 0 0 0 16 8.032C16 3.596 12.418 0 7.999 0z"></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-4 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-4 px-3 pointer-events-none">
                     Github
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="sm:h-12 sm:w-12 h-10 w-10 fill-gray-400 hover:fill-gray-200"
@@ -391,13 +391,13 @@ const Skills_3 = () => {
                   >
                     <path d="m33.87 7.28-15.38 14.8-9-7-2.15 1.17V32l1.93 1.28L18.62 26l15.25 14.72 6.79-2.82V10.23Zm-23.58 21V19.7l4.16 4.3Zm22.29 1.83L24 24l8.58-6.13Z"></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-4 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-4 px-3 pointer-events-none">
                     VsCode
                   </h2>
                 </div>
               </div>
               <div>
-                <div class="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
+                <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="sm:h-12 sm:w-12 h-10 w-10 fill-gray-400 hover:fill-gray-200"
@@ -407,7 +407,7 @@ const Skills_3 = () => {
                     <path d="M22 20.93h2V25h-2z"></path>
                     <path d="M5.48 16.78v12.37h10.3v2.07H24v-2.07h18.52V16.78Zm10.3 4.15v6.14h-2.07v-6.14h-2.08v6.14H7.56v-8.22h8.22Zm10.29 6.14H22v2.08h-4.15v-10.3h8.22ZM40.51 19v8.07h-2.07v-6.14h-2.07v6.14h-2.08v-6.14h-2.07v6.14h-4.07v-8.22h12.36Z"></path>
                   </svg>
-                  <h2 class="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-7 px-3 pointer-events-none">
+                  <h2 className="opacity-0 bg-black text-neutral-400 text-center text-xs font-raleway rounded-lg py-2 absolute z-40 group-hover:opacity-100 top-full -left-1/2 sm:ml-11 ml-7 px-3 pointer-events-none">
                     npm
                   </h2>
                 </div>
