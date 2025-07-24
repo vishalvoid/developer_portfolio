@@ -208,7 +208,7 @@ const Skills_3 = () => {
                 <div className="relative group font-raleway font-normal cursor-pointer px-1 sm:px-2 md:px-3 rounded-lg py-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    enable-background="new 0 0 24 24"
+                    enableBackground="new 0 0 24 24"
                     viewBox="0 0 24 24"
                     id="flutter"
                     className="sm:h-12 sm:w-12 h-10 w-10 fill-gray-400 hover:fill-gray-200"
@@ -265,7 +265,7 @@ const Skills_3 = () => {
                   <svg
                     className="sm:h-12 sm:w-12 h-10 w-10 fill-gray-400 hover:fill-gray-200"
                     xmlns="http://www.w3.org/2000/svg"
-                    enable-background="new 0 0 24 24"
+                    enableBackground="new 0 0 24 24"
                     viewBox="0 0 24 24"
                     id="amazon-aws"
                   >
