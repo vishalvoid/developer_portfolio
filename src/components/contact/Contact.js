@@ -25,30 +25,46 @@ const Contact = () => {
           <div className="tracking-wider items-center  text-justify text-gray-300 text-xs leading-7">
             <h1 className="text-sm">It&#39;s easy, Fill the form.</h1>
             <form action="" className="w-full">
-              <p>Name</p>
+              <label htmlFor="name">
+                <p>Name</p>
+              </label>
               <input
-                className="w-full bg-slate-900 border border-slate-700 rounded-md indent-2"
+                className="w-full bg-slate-900 border border-slate-700 rounded-md indent-2 p-2"
                 type="text"
-                name=""
-                id=""
+                name="name"
+                id="name"
+                placeholder="Your name"
+                aria-label="Your name"
               />
-              <p>Email</p>
+              <label htmlFor="email">
+                <p>Email</p>
+              </label>
               <input
                 type="email"
-                name=""
-                id=""
-                className="w-full bg-slate-900 border border-slate-700 rounded-md indent-2"
+                name="email"
+                id="email"
+                className="w-full bg-slate-900 border border-slate-700 rounded-md indent-2 p-2"
+                placeholder="your.email@example.com"
+                aria-label="Your email address"
               />
-              <p>Message</p>
+              <label htmlFor="message">
+                <p>Message</p>
+              </label>
               <textarea
-                className="w-full bg-slate-900 border border-slate-700 rounded-md indent-2"
-                name=""
-                id=""
+                className="w-full bg-slate-900 border border-slate-700 rounded-md indent-2 p-2"
+                name="message"
+                id="message"
                 cols="30"
                 rows="5"
+                placeholder="Your message here..."
+                aria-label="Your message"
               ></textarea>
             </form>
-            <button className="px-6 py-1 border border-slate-700 rounded-md hover:bg-slate-800 hover:border-slate-200">
+            <button 
+              type="submit"
+              className="px-6 py-1 border border-slate-700 rounded-md hover:bg-slate-800 hover:border-slate-200 focus:outline-none focus:ring-2 focus:ring-slate-400"
+              aria-label="Send message"
+            >
               Send
             </button>
           </div>

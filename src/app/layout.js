@@ -10,13 +10,13 @@ config.autoAddCss = false;
 const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Web & App Development by Vishal Kr Singh | Portfolio | VishalVoid",
+  title: "Vishal Kumar Singh | MERN & TypeScript Engineer | Portfolio",
   description:
-    "Vishal Kumar Singh - Web & App Developer Portfolio | Explore stunning web design, mobile app development, and digital innovation. Hire me for top-tier  solutions.",
+    "MERN & TypeScript engineer crafting real-time applications. Experienced in React, Node.js, MongoDB, Socket.io, and modern web development. Available for freelance projects.",
   openGraph: {
-    title: "Vishal Kumar Singh - Web & App Developer Portfolio",
+    title: "Vishal Kumar Singh | MERN & TypeScript Engineer",
     description:
-      "Explore stunning web design, mobile app development, and digital innovation in Vishal Kumar Singh's portfolio. Hire Vishal for top-tier solutions.",
+      "MERN & TypeScript engineer crafting real-time applications. Expert in React, Node.js, MongoDB, Socket.io, and modern web development.",
     url: "https://vishalvoid.com",
     siteName: "vishalvoid.com",
     images: [
@@ -34,9 +34,9 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Web & App Development by Vishal Kr Singh | Portfolio ",
+    title: "Vishal Kumar Singh | MERN & TypeScript Engineer",
     description:
-      "Vishal Kumar Singh - Web & App Developer Portfolio | Explore stunning web design, mobile app development, and digital innovation. Hire Vishal for top-tier web & app solutions.",
+      "MERN & TypeScript engineer crafting real-time applications. Expert in React, Node.js, MongoDB, Socket.io, and modern web development.",
     images: ["https://vishalvoid.com/images/open-graph.jpg"],
   },
 };
@@ -45,6 +45,35 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Structured Data for SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Vishal Kumar Singh",
+              "url": "https://www.vishalvoid.com",
+              "sameAs": [
+                "https://github.com/vishalvoid",
+                "https://linkedin.com/in/vishalvoid",
+                "https://medium.com/@vishalvoid",
+                "https://twitter.com/vishal_void"
+              ],
+              "jobTitle": "MERN & TypeScript Engineer",
+              "description": "Full-stack developer specializing in MERN stack and TypeScript, crafting real-time applications and blockchain-ready solutions",
+              "knowsAbout": ["Next.js", "Node.js", "React", "TypeScript", "MongoDB", "Real-time APIs", "Socket.io"],
+              "workLocation": {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Noida",
+                  "addressCountry": "IN"
+                }
+              }
+            })
+          }}
+        />
         <link
           rel="apple-touch-icon"
           sizes="57x57"

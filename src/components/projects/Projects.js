@@ -91,8 +91,8 @@ const Projects = () => {
                   </h2>
                   <h2 className="text-xs text-slate-400 mb-2">NGO Website</h2>
                   <p className="text-[10px] text-slate-400 md:block hidden">
-                    Beautifull Looking website built over the basic power of
-                    html css and js. also included payment gateway to reveive
+                    Beautiful looking website built over the basic power of
+                    HTML, CSS and JS. Also included payment gateway to receive
                     donations...
                   </p>
 
@@ -114,10 +114,10 @@ const Projects = () => {
                     Void Tables
                   </h2>
                   <h2 className="text-xs text-slate-400 mb-2">
-                    Restraunt Booking WebApp
+                    Restaurant Booking WebApp
                   </h2>
                   <p className="text-[10px] text-slate-400 md:block hidden">
-                    A Website to reserve tables in restraunt by choosing the
+                    A website to reserve tables in restaurants by choosing the
                     best one for you. in real time. after watching the dish and
                     price along with it.
                   </p>
@@ -205,7 +205,7 @@ const Projects = () => {
             } p-4 mb-4 text-sm text-red-800  rounded-lg bg-blue-50 dark:bg-gray-800 dark:text-red-400 text-center `}
             role="alert"
           >
-            <span class="font-medium -tracking-2  ">Sorry ! </span>
+            <span className="font-medium -tracking-2  ">Sorry ! </span>
             Not found - coming soon.
           </div>
         </div>
@@ -267,51 +267,51 @@ const Projects = () => {
                           >
                             Key Features :-
                           </div>
-                          <ul class="list-disc ml-10 text-gray-400">
-                            <li class="leading-loose text-xs opacity-75">
+                          <ul className="list-disc ml-10 text-gray-400">
+                            <li className="leading-loose text-xs opacity-75">
                               Over 20 active users are communicating with each
                               other.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               One-to-One Messaging: Enjoy private conversations
                               with friends and loved ones, fostering deeper
                               connections.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Secure Login: Your data is safeguarded with
                               state-of-the-art security measures, including
                               bcryptjs encryption.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Seamless User Experience: Dravin is built using
                               React, providing a smooth, responsive, and
                               intuitive user interface.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Robust Backend: Powered by Node.js and Express.js,
                               ensuring a reliable and scalable platform.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Engagement Tools: Keep up with friends&#39;
                               updates, post content, like, comment, and share
                               effortlessly.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Personalized Feeds: Tailored content based on your
                               interests to enhance your browsing experience.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Notifications: Stay informed with real-time
                               notifications, ensuring you never miss important
                               updates.
                             </li>
 
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               90% of surveyed users rated the application&#39;s
                               user interface as intuitive and easy to navigate
                             </li>
 
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Experience social networking like never before
                               with Dravin. Connect, share, and build
                               relationships with confidence.&#34;
@@ -340,7 +340,7 @@ const Projects = () => {
                               Database
                             </p>
                             <p className="text-xs text-slate-500">
-                              mongoDB with mongoose
+                              MongoDB with Mongoose
                             </p>
                           </div>
                         </div>
@@ -433,46 +433,46 @@ const Projects = () => {
                           >
                             Key Features :-
                           </div>
-                          <ul class="list-disc ml-10 text-gray-400">
-                            <li class="leading-loose text-xs opacity-75">
+                          <ul className="list-disc ml-10 text-gray-400">
+                            <li className="leading-loose text-xs opacity-75">
                               User-Friendly Interface: The website boasts a
                               sleek and intuitive design, ensuring a seamless
                               user experience.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Responsive Design: It is fully responsive,
                               adapting gracefully to various devices, including
                               smartphones, tablets, and desktops.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Donation Portal: A secure and integrated payment
                               gateway allows users to make donations
                               conveniently, promoting financial support for
                               noble causes.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Transparency: Detailed financial reports and
                               project updates are readily accessible, fostering
                               trust and accountability among donors and
                               stakeholders.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Impactful Visuals: Engaging multimedia content,
                               such as images and videos, effectively conveys the
                               NGO&#39;s mission, inspiring visitors to get
                               involved.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Volunteer Opportunities: Information about
                               volunteering is prominently featured, encouraging
                               community engagement and participation.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Social Media Integration: Seamlessly connect with
                               the NGO&#39;s social media profiles to stay
                               updated on events, campaigns, and news.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Newsletter Signup: Users can subscribe to
                               newsletters, receiving regular updates and success
                               stories, keeping them connected to the NGO&#39;s
@@ -551,7 +551,7 @@ const Projects = () => {
                       </h1>
                       <h2 className="mt-2 text-xs text-slate-200">
                         {" "}
-                        A Restraunt Booking WebAPP
+                        A Restaurant Booking WebApp
                       </h2>
                       <h3 className="mt-2 text-xs text-slate-400">
                         &#34;voidTable is a online restaurant reservation
@@ -581,59 +581,59 @@ const Projects = () => {
                           >
                             Key Features :-
                           </div>
-                          <ul class="list-disc ml-10 text-gray-400">
-                            <li class="leading-loose text-xs opacity-75">
+                          <ul className="list-disc ml-10 text-gray-400">
+                            <li className="leading-loose text-xs opacity-75">
                               User-Friendly Interface: A responsive and
                               intuitive user interface created using Next.js,
                               ensuring seamless interactions for users across
                               various devices.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               User Authentication: Secure user authentication
                               and authorization powered by Node.js and
                               Express.js, allowing users to create accounts and
                               manage their reservations.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Real-Time Availability: Real-time updates on table
                               availability with automatic synchronization to
                               prevent overbooking, thanks to MongoDB&#39;s
                               document-oriented structure.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Reservation System: A robust reservation system
                               that allows users to browse restaurants, select
                               date and time preferences, and book tables using
                               MongoDB to store reservation data.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Dynamic Content: Dynamic content rendering with
                               Next.js, ensuring fast loading times and
                               SEO-friendly pages for restaurants and users.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Search and Filters: Advanced search and filtering
                               options to help users find restaurants based on
                               location, cuisine, price, and more.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               User Reviews and Ratings: Integration with MongoDB
                               for storing user-generated reviews and ratings for
                               restaurants.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Payment Integration: Integration of payment
                               gateways for securing reservations through secure
                               transactions, ensuring a smooth payment process.
                             </li>
 
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Geolocation Services: Utilization of geolocation
                               services to suggest nearby restaurants and provide
                               accurate directions.
                             </li>
 
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Mobile Accessibility: Mobile-friendly design
                               created using Next.js and responsive front-end
                               development, allowing users to make reservations
@@ -745,46 +745,46 @@ const Projects = () => {
                           >
                             Key Features :-
                           </div>
-                          <ul class="list-disc ml-10 text-gray-400">
-                            <li class="leading-loose text-xs opacity-75">
+                          <ul className="list-disc ml-10 text-gray-400">
+                            <li className="leading-loose text-xs opacity-75">
                               Modern Design: This Next.js developer portfolio
                               shines with a sleek and contemporary design.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Responsive: It adapts gracefully to various
                               devices, maintaining its elegance.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Next.js Power: Utilizing Next.js, it&#39;s fast,
                               SEO-friendly, and offers server-side rendering.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Blog Integration: Seamlessly blends a blog feature
                               into the portfolio&#39;s modern design.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Robust Backend: Powered by Node.js and Express.js,
                               ensuring a reliable and scalable platform.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Project Showcase: Presents work with high-quality
                               images, descriptions, and demo links.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Interactive Elements: Engages visitors with
                               animations and project previews.
                             </li>
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Performance: Optimized for speed, using lazy
                               loading and code splitting.
                             </li>
 
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Contact and Social: Provides easy contact options
                               and links to social profiles.
                             </li>
 
-                            <li class="leading-loose text-xs opacity-75">
+                            <li className="leading-loose text-xs opacity-75">
                               Analytics and SEO: Offers analytics integration
                               and strong SEO optimization for visibility.
                             </li>
@@ -913,7 +913,7 @@ const Projects = () => {
                     Void Tables
                   </div>
                   <div className="text-xs   mb-2">
-                    A Restraunt Booking WebApp
+                    A Restaurant Booking WebApp
                   </div>
                   <div className=" text-xs">View More </div>
                 </div>
