@@ -1,13 +1,16 @@
 import "./globals.css";
-import { Raleway } from "next/font/google";
+import { Inter } from "next/font/google";
+import { cn } from "@/lib/utils";
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
-
 import { config } from "@fortawesome/fontawesome-svg-core";
 
 config.autoAddCss = false;
 
-const raleway = Raleway({ subsets: ["latin"] });
+const inter = Inter({ 
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 export const metadata = {
   title: "Vishal Kumar Singh | MERN & TypeScript Engineer | Portfolio",
@@ -25,7 +28,6 @@ export const metadata = {
       },
       {
         url: "https://vishalvoid.com/images/open-graph.jpg",
-
         alt: "opengraph image",
       },
     ],
@@ -41,9 +43,13 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+interface RootLayoutProps {
+  children: React.ReactNode;
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <head>
         {/* Structured Data for SEO */}
         <script
@@ -151,7 +157,14 @@ export default function RootLayout({ children }) {
         />
         <meta name="theme-color" content="#ffffff" />
       </head>
-      <body className={raleway.className}>{children}</body>
+      <body className={cn(
+        "min-h-screen bg-background font-inter antialiased",
+        inter.variable
+      )}>
+        <div className="relative flex min-h-screen flex-col">
+          <main className="flex-1">{children}</main>
+        </div>
+      </body>
     </html>
   );
 }
